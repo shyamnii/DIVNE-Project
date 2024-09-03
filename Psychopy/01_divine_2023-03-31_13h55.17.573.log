@@ -1,0 +1,2075 @@
+3.0895 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.2041 	ERROR 	'1.0000, 1.0000, 1.0000' is not a valid rgb color
+13.2560 	WARNING 	User requested fullscreen with size [1563 1042], but screen is actually [1920, 1080]. Using actual size
+13.8890 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001628A2485E0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001628C3AB6D0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.8891 	EXP 	window1: mouseVisible = True
+13.8892 	EXP 	window1: mouseVisible = False
+13.8892 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.8892 	EXP 	window1: recordFrameIntervals = False
+14.0541 	EXP 	window1: recordFrameIntervals = True
+14.2378 	EXP 	Screen (0) actual frame rate measured at 59.92Hz
+14.2378 	EXP 	window1: recordFrameIntervals = False
+18.5607 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+18.5757 	EXP 	Created inital_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='inital_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+18.8270 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.0900 	EXP 	Created bhas_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='bhas_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.1424 	EXP 	Created inital_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='inital_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.1975 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.1997 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+21.2216 	EXP 	Sound sound_2 set volume 1.000
+21.2572 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.2687 	EXP 	Created bhas_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='bhas_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.2957 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.2970 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+21.2973 	EXP 	Sound sound_2 set volume 1.000
+21.3077 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+21.3987 	EXP 	instrText: autoLog = True
+21.3987 	EXP 	word: autoLog = True
+21.3987 	EXP 	instrText_2: autoLog = True
+21.3987 	EXP 	word: autoLog = True
+21.3987 	EXP 	instrText_3: autoLog = True
+21.3987 	EXP 	word: autoLog = True
+21.3987 	EXP 	instrText: autoLog = True
+21.3987 	EXP 	word: autoLog = True
+21.3987 	EXP 	word: autoLog = True
+21.3987 	EXP 	word: autoLog = True
+21.3987 	EXP 	text_4: autoDraw = True
+22.4229 	DATA 	Keypress: space
+22.4363 	EXP 	text_4: autoDraw = False
+22.4363 	EXP 	inital_text: autoDraw = True
+322.4512 	EXP 	inital_text: autoDraw = False
+322.4512 	EXP 	instrText: autoDraw = True
+328.7887 	EXP 	Imported neutral.xlsx as conditions, 50 conditions, 4 params
+328.7902 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+328.7906 	EXP 	New trial (rep=0, index=0): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+328.8190 	DATA 	Keypress: space
+328.8232 	EXP 	instrText: autoDraw = False
+328.8232 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+329.2857 	EXP 	word: autoDraw = True
+330.1879 	EXP 	New trial (rep=0, index=1): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+330.2299 	DATA 	Keypress: r
+330.2341 	EXP 	word: autoDraw = False
+330.2341 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+330.7026 	EXP 	word: autoDraw = True
+331.6881 	EXP 	New trial (rep=0, index=2): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+331.6991 	DATA 	Keypress: x
+331.7038 	EXP 	word: autoDraw = False
+331.7038 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+332.2028 	EXP 	word: autoDraw = True
+332.8381 	EXP 	New trial (rep=0, index=3): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+332.8596 	DATA 	Keypress: b
+332.8639 	EXP 	word: autoDraw = False
+332.8639 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+333.3531 	EXP 	word: autoDraw = True
+333.8570 	DATA 	Keypress: g
+333.8714 	EXP 	New trial (rep=0, index=4): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+333.8865 	EXP 	word: autoDraw = False
+333.8865 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+334.3866 	EXP 	word: autoDraw = True
+334.9885 	EXP 	New trial (rep=0, index=5): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+334.9910 	DATA 	Keypress: r
+335.0033 	EXP 	word: autoDraw = False
+335.0033 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+335.5034 	EXP 	word: autoDraw = True
+336.0567 	DATA 	Keypress: r
+336.0721 	EXP 	New trial (rep=0, index=6): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+336.0871 	EXP 	word: autoDraw = False
+336.0871 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+336.5868 	EXP 	word: autoDraw = True
+337.0242 	DATA 	Keypress: r
+337.0397 	EXP 	New trial (rep=0, index=7): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+337.0536 	EXP 	word: autoDraw = False
+337.0536 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+337.5537 	EXP 	word: autoDraw = True
+338.1890 	EXP 	New trial (rep=0, index=8): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+338.1913 	DATA 	Keypress: g
+338.2038 	EXP 	word: autoDraw = False
+338.2038 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+338.7039 	EXP 	word: autoDraw = True
+339.3062 	EXP 	New trial (rep=0, index=9): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+339.3085 	DATA 	Keypress: g
+339.3207 	EXP 	word: autoDraw = False
+339.3207 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+339.8208 	EXP 	word: autoDraw = True
+340.3062 	EXP 	New trial (rep=0, index=10): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+340.3085 	DATA 	Keypress: r
+340.3207 	EXP 	word: autoDraw = False
+340.3207 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+340.8209 	EXP 	word: autoDraw = True
+341.3730 	EXP 	New trial (rep=0, index=11): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+341.3751 	DATA 	Keypress: x
+341.3877 	EXP 	word: autoDraw = False
+341.3877 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+341.8878 	EXP 	word: autoDraw = True
+342.4061 	EXP 	New trial (rep=0, index=12): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+342.4085 	DATA 	Keypress: r
+342.4212 	EXP 	word: autoDraw = False
+342.4212 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+342.9211 	EXP 	word: autoDraw = True
+343.5905 	EXP 	New trial (rep=0, index=13): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+343.5928 	DATA 	Keypress: x
+343.6047 	EXP 	word: autoDraw = False
+343.6047 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+344.1047 	EXP 	word: autoDraw = True
+344.7574 	EXP 	New trial (rep=0, index=14): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+344.7624 	DATA 	Keypress: b
+344.7716 	EXP 	word: autoDraw = False
+344.7716 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+345.2716 	EXP 	word: autoDraw = True
+345.9576 	EXP 	New trial (rep=0, index=15): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+345.9619 	DATA 	Keypress: b
+345.9717 	EXP 	word: autoDraw = False
+345.9717 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+346.4718 	EXP 	word: autoDraw = True
+346.9756 	DATA 	Keypress: g
+346.9906 	EXP 	New trial (rep=0, index=16): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+347.0052 	EXP 	word: autoDraw = False
+347.0052 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+347.5054 	EXP 	word: autoDraw = True
+348.1919 	EXP 	New trial (rep=0, index=17): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+348.1968 	DATA 	Keypress: x
+348.2055 	EXP 	word: autoDraw = False
+348.2055 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+348.7054 	EXP 	word: autoDraw = True
+349.2910 	EXP 	New trial (rep=0, index=18): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+349.2933 	DATA 	Keypress: g
+349.3059 	EXP 	word: autoDraw = False
+349.3059 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+349.8056 	EXP 	word: autoDraw = True
+350.2911 	EXP 	New trial (rep=0, index=19): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+350.2934 	DATA 	Keypress: r
+350.3058 	EXP 	word: autoDraw = False
+350.3058 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+350.8058 	EXP 	word: autoDraw = True
+351.5243 	EXP 	New trial (rep=0, index=20): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+351.5264 	DATA 	Keypress: x
+351.5393 	EXP 	word: autoDraw = False
+351.5393 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+352.0393 	EXP 	word: autoDraw = True
+352.7248 	EXP 	New trial (rep=0, index=21): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+352.7271 	DATA 	Keypress: g
+352.7395 	EXP 	word: autoDraw = False
+352.7395 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+353.2396 	EXP 	word: autoDraw = True
+353.7762 	DATA 	Keypress: b
+353.7926 	EXP 	New trial (rep=0, index=22): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+353.8063 	EXP 	word: autoDraw = False
+353.8063 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+354.3064 	EXP 	word: autoDraw = True
+355.1939 	DATA 	Keypress: g
+355.2083 	EXP 	New trial (rep=0, index=23): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+355.2232 	EXP 	word: autoDraw = False
+355.2232 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+355.7237 	EXP 	word: autoDraw = True
+356.3093 	EXP 	New trial (rep=0, index=24): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+356.3116 	DATA 	Keypress: b
+356.3234 	EXP 	word: autoDraw = False
+356.3234 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+356.8235 	EXP 	word: autoDraw = True
+357.4084 	EXP 	New trial (rep=0, index=25): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+357.4108 	DATA 	Keypress: r
+357.4237 	EXP 	word: autoDraw = False
+357.4237 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+357.9237 	EXP 	word: autoDraw = True
+358.4919 	EXP 	New trial (rep=0, index=26): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+358.4940 	DATA 	Keypress: r
+358.5070 	EXP 	word: autoDraw = False
+358.5070 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+359.0071 	EXP 	word: autoDraw = True
+359.5086 	EXP 	New trial (rep=0, index=27): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+359.5109 	DATA 	Keypress: r
+359.5239 	EXP 	word: autoDraw = False
+359.5239 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+360.0239 	EXP 	word: autoDraw = True
+360.5115 	DATA 	Keypress: r
+360.5255 	EXP 	New trial (rep=0, index=28): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+360.5408 	EXP 	word: autoDraw = False
+360.5408 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+361.0408 	EXP 	word: autoDraw = True
+361.6927 	EXP 	New trial (rep=0, index=29): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+361.6950 	DATA 	Keypress: x
+361.7075 	EXP 	word: autoDraw = False
+361.7075 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+362.2077 	EXP 	word: autoDraw = True
+362.7430 	EXP 	New trial (rep=0, index=30): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+362.7453 	DATA 	Keypress: r
+362.7578 	EXP 	word: autoDraw = False
+362.7578 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+363.2578 	EXP 	word: autoDraw = True
+363.9779 	DATA 	Keypress: x
+363.9929 	EXP 	New trial (rep=0, index=31): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+364.0080 	EXP 	word: autoDraw = False
+364.0080 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+364.5080 	EXP 	word: autoDraw = True
+365.0933 	EXP 	New trial (rep=0, index=32): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+365.0956 	DATA 	Keypress: b
+365.1081 	EXP 	word: autoDraw = False
+365.1081 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+365.6086 	EXP 	word: autoDraw = True
+366.1284 	DATA 	Keypress: x
+366.1431 	EXP 	New trial (rep=0, index=33): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+366.1583 	EXP 	word: autoDraw = False
+366.1583 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+366.6584 	EXP 	word: autoDraw = True
+367.2600 	EXP 	New trial (rep=0, index=34): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+367.2621 	DATA 	Keypress: g
+367.2751 	EXP 	word: autoDraw = False
+367.2751 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+367.7752 	EXP 	word: autoDraw = True
+368.3441 	EXP 	New trial (rep=0, index=35): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+368.3467 	DATA 	Keypress: g
+368.3587 	EXP 	word: autoDraw = False
+368.3587 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+368.8588 	EXP 	word: autoDraw = True
+369.7275 	EXP 	New trial (rep=0, index=36): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+369.7298 	DATA 	Keypress: b
+369.7422 	EXP 	word: autoDraw = False
+369.7422 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+370.2423 	EXP 	word: autoDraw = True
+370.8122 	EXP 	New trial (rep=0, index=37): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+370.8167 	DATA 	Keypress: x
+370.8258 	EXP 	word: autoDraw = False
+370.8258 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+371.3258 	EXP 	word: autoDraw = True
+371.9775 	EXP 	New trial (rep=0, index=38): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+371.9796 	DATA 	Keypress: b
+371.9926 	EXP 	word: autoDraw = False
+371.9926 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+372.4926 	EXP 	word: autoDraw = True
+372.9613 	EXP 	New trial (rep=0, index=39): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+372.9636 	DATA 	Keypress: g
+372.9760 	EXP 	word: autoDraw = False
+372.9760 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+373.4761 	EXP 	word: autoDraw = True
+373.8968 	DATA 	Keypress: r
+373.9115 	EXP 	New trial (rep=0, index=40): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+373.9262 	EXP 	word: autoDraw = False
+373.9262 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+374.4263 	EXP 	word: autoDraw = True
+374.9954 	EXP 	New trial (rep=0, index=41): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+374.9980 	DATA 	Keypress: b
+375.0096 	EXP 	word: autoDraw = False
+375.0096 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+375.5098 	EXP 	word: autoDraw = True
+375.8965 	DATA 	Keypress: r
+375.9113 	EXP 	New trial (rep=0, index=42): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+375.9266 	EXP 	word: autoDraw = False
+375.9266 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+376.4266 	EXP 	word: autoDraw = True
+376.9615 	EXP 	New trial (rep=0, index=43): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+376.9636 	DATA 	Keypress: b
+376.9767 	EXP 	word: autoDraw = False
+376.9767 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+377.4768 	EXP 	word: autoDraw = True
+377.8801 	DATA 	Keypress: r
+377.8953 	EXP 	New trial (rep=0, index=44): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+377.9101 	EXP 	word: autoDraw = False
+377.9101 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+378.4103 	EXP 	word: autoDraw = True
+379.0300 	EXP 	New trial (rep=0, index=45): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+379.0347 	DATA 	Keypress: x
+379.0441 	EXP 	word: autoDraw = False
+379.0441 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+379.5437 	EXP 	word: autoDraw = True
+380.0805 	DATA 	Keypress: x
+380.0954 	EXP 	New trial (rep=0, index=46): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+380.1105 	EXP 	word: autoDraw = False
+380.1105 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+380.6106 	EXP 	word: autoDraw = True
+381.2628 	EXP 	New trial (rep=0, index=47): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+381.2651 	DATA 	Keypress: b
+381.2774 	EXP 	word: autoDraw = False
+381.2774 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+381.7777 	EXP 	word: autoDraw = True
+382.4478 	DATA 	Keypress: x
+382.4628 	EXP 	New trial (rep=0, index=48): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+382.4776 	EXP 	word: autoDraw = False
+382.4776 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+382.9776 	EXP 	word: autoDraw = True
+383.5001 	DATA 	Keypress: g
+383.5126 	EXP 	New trial (rep=0, index=49): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+383.5278 	EXP 	word: autoDraw = False
+383.5278 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+384.0278 	EXP 	word: autoDraw = True
+385.0985 	DATA 	Keypress: g
+385.1281 	EXP 	word: autoDraw = False
+385.1281 	EXP 	instrText_2: autoDraw = True
+389.2459 	EXP 	Imported congruent.xlsx as conditions, 50 conditions, 4 params
+389.2472 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+389.2476 	EXP 	New trial (rep=0, index=0): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+389.2504 	DATA 	Keypress: space
+389.2529 	EXP 	instrText_2: autoDraw = False
+389.2529 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+389.7454 	EXP 	word: autoDraw = True
+390.3153 	EXP 	New trial (rep=0, index=1): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+390.3197 	DATA 	Keypress: x
+390.3288 	EXP 	word: autoDraw = False
+390.3288 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+390.8292 	EXP 	word: autoDraw = True
+391.3806 	EXP 	New trial (rep=0, index=2): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+391.3828 	DATA 	Keypress: r
+391.3957 	EXP 	word: autoDraw = False
+391.3957 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+391.8961 	EXP 	word: autoDraw = True
+392.5146 	EXP 	New trial (rep=0, index=3): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+392.5167 	DATA 	Keypress: g
+392.5293 	EXP 	word: autoDraw = False
+392.5293 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+393.0292 	EXP 	word: autoDraw = True
+393.5147 	EXP 	New trial (rep=0, index=4): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+393.5172 	DATA 	Keypress: b
+393.5294 	EXP 	word: autoDraw = False
+393.5294 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+394.0294 	EXP 	word: autoDraw = True
+394.5643 	EXP 	New trial (rep=0, index=5): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+394.5664 	DATA 	Keypress: g
+394.5796 	EXP 	word: autoDraw = False
+394.5796 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+395.0796 	EXP 	word: autoDraw = True
+395.7651 	EXP 	New trial (rep=0, index=6): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+395.7674 	DATA 	Keypress: b
+395.7798 	EXP 	word: autoDraw = False
+395.7798 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+396.2798 	EXP 	word: autoDraw = True
+396.6988 	EXP 	New trial (rep=0, index=7): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+396.7012 	DATA 	Keypress: r
+396.7131 	EXP 	word: autoDraw = False
+396.7131 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+397.2133 	EXP 	word: autoDraw = True
+397.7656 	EXP 	New trial (rep=0, index=8): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+397.7680 	DATA 	Keypress: g
+397.7801 	EXP 	word: autoDraw = False
+397.7801 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+398.2801 	EXP 	word: autoDraw = True
+399.0655 	EXP 	New trial (rep=0, index=9): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+399.0678 	DATA 	Keypress: r
+399.0803 	EXP 	word: autoDraw = False
+399.0803 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+399.5803 	EXP 	word: autoDraw = True
+400.0156 	EXP 	New trial (rep=0, index=10): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+400.0181 	DATA 	Keypress: x
+400.0304 	EXP 	word: autoDraw = False
+400.0304 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+400.5305 	EXP 	word: autoDraw = True
+401.1491 	EXP 	New trial (rep=0, index=11): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+401.1515 	DATA 	Keypress: g
+401.1640 	EXP 	word: autoDraw = False
+401.1640 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+401.6639 	EXP 	word: autoDraw = True
+402.1494 	EXP 	New trial (rep=0, index=12): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+402.1517 	DATA 	Keypress: g
+402.1641 	EXP 	word: autoDraw = False
+402.1641 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+402.6642 	EXP 	word: autoDraw = True
+403.2162 	EXP 	New trial (rep=0, index=13): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+403.2189 	DATA 	Keypress: b
+403.2309 	EXP 	word: autoDraw = False
+403.2309 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+403.7310 	EXP 	word: autoDraw = True
+404.2832 	EXP 	New trial (rep=0, index=14): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+404.2855 	DATA 	Keypress: b
+404.2978 	EXP 	word: autoDraw = False
+404.2978 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+404.7978 	EXP 	word: autoDraw = True
+405.3212 	DATA 	Keypress: b
+405.3333 	EXP 	New trial (rep=0, index=15): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+405.3479 	EXP 	word: autoDraw = False
+405.3479 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+405.8480 	EXP 	word: autoDraw = True
+406.3169 	EXP 	New trial (rep=0, index=16): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+406.3196 	DATA 	Keypress: r
+406.3315 	EXP 	word: autoDraw = False
+406.3315 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+406.8319 	EXP 	word: autoDraw = True
+407.2998 	EXP 	New trial (rep=0, index=17): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+407.3019 	DATA 	Keypress: r
+407.3149 	EXP 	word: autoDraw = False
+407.3149 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+407.8150 	EXP 	word: autoDraw = True
+408.3164 	EXP 	New trial (rep=0, index=18): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+408.3186 	DATA 	Keypress: x
+408.3318 	EXP 	word: autoDraw = False
+408.3318 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+408.8318 	EXP 	word: autoDraw = True
+409.4339 	EXP 	New trial (rep=0, index=19): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+409.4362 	DATA 	Keypress: x
+409.4486 	EXP 	word: autoDraw = False
+409.4486 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+409.9486 	EXP 	word: autoDraw = True
+410.4674 	EXP 	New trial (rep=0, index=20): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+410.4699 	DATA 	Keypress: x
+410.4821 	EXP 	word: autoDraw = False
+410.4821 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+410.9822 	EXP 	word: autoDraw = True
+411.5343 	EXP 	New trial (rep=0, index=21): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+411.5369 	DATA 	Keypress: x
+411.5489 	EXP 	word: autoDraw = False
+411.5489 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+412.0490 	EXP 	word: autoDraw = True
+413.3366 	DATA 	Keypress: b
+413.3509 	EXP 	New trial (rep=0, index=22): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+413.3659 	EXP 	word: autoDraw = False
+413.3659 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+413.8660 	EXP 	word: autoDraw = True
+414.5184 	EXP 	New trial (rep=0, index=23): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+414.5207 	DATA 	Keypress: x
+414.5327 	EXP 	word: autoDraw = False
+414.5327 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+415.0328 	EXP 	word: autoDraw = True
+415.5513 	EXP 	New trial (rep=0, index=24): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+415.5534 	DATA 	Keypress: b
+415.5663 	EXP 	word: autoDraw = False
+415.5663 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+416.0663 	EXP 	word: autoDraw = True
+416.6182 	EXP 	New trial (rep=0, index=25): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+416.6203 	DATA 	Keypress: g
+416.6331 	EXP 	word: autoDraw = False
+416.6331 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+417.1332 	EXP 	word: autoDraw = True
+418.1536 	DATA 	Keypress: b
+418.1686 	EXP 	New trial (rep=0, index=26): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+418.1834 	EXP 	word: autoDraw = False
+418.1834 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+418.6833 	EXP 	word: autoDraw = True
+419.2023 	EXP 	New trial (rep=0, index=27): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+419.2046 	DATA 	Keypress: g
+419.2169 	EXP 	word: autoDraw = False
+419.2169 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+419.7169 	EXP 	word: autoDraw = True
+420.2855 	EXP 	New trial (rep=0, index=28): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+420.2878 	DATA 	Keypress: x
+420.3003 	EXP 	word: autoDraw = False
+420.3003 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+420.8004 	EXP 	word: autoDraw = True
+421.2519 	EXP 	New trial (rep=0, index=29): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+421.2541 	DATA 	Keypress: r
+421.2673 	EXP 	word: autoDraw = False
+421.2673 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+421.7673 	EXP 	word: autoDraw = True
+422.3205 	DATA 	Keypress: g
+422.3356 	EXP 	New trial (rep=0, index=30): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+422.3507 	EXP 	word: autoDraw = False
+422.3507 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+422.8507 	EXP 	word: autoDraw = True
+423.5213 	DATA 	Keypress: b
+423.5361 	EXP 	New trial (rep=0, index=31): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+423.5512 	EXP 	word: autoDraw = False
+423.5512 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+424.0510 	EXP 	word: autoDraw = True
+424.5365 	EXP 	New trial (rep=0, index=32): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+424.5389 	DATA 	Keypress: b
+424.5510 	EXP 	word: autoDraw = False
+424.5510 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+425.0511 	EXP 	word: autoDraw = True
+425.6365 	EXP 	New trial (rep=0, index=33): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+425.6388 	DATA 	Keypress: r
+425.6516 	EXP 	word: autoDraw = False
+425.6516 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+426.1512 	EXP 	word: autoDraw = True
+426.6711 	DATA 	Keypress: g
+426.6861 	EXP 	New trial (rep=0, index=34): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+426.7014 	EXP 	word: autoDraw = False
+426.7014 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+427.2014 	EXP 	word: autoDraw = True
+427.5536 	EXP 	New trial (rep=0, index=35): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+427.5559 	DATA 	Keypress: x
+427.5682 	EXP 	word: autoDraw = False
+427.5682 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+428.0682 	EXP 	word: autoDraw = True
+428.6204 	EXP 	New trial (rep=0, index=36): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+428.6227 	DATA 	Keypress: g
+428.6351 	EXP 	word: autoDraw = False
+428.6351 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+429.1351 	EXP 	word: autoDraw = True
+429.5205 	EXP 	New trial (rep=0, index=37): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+429.5228 	DATA 	Keypress: r
+429.5352 	EXP 	word: autoDraw = False
+429.5352 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+430.0355 	EXP 	word: autoDraw = True
+430.4886 	DATA 	Keypress: x
+430.5035 	EXP 	New trial (rep=0, index=38): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+430.5186 	EXP 	word: autoDraw = False
+430.5186 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+431.0187 	EXP 	word: autoDraw = True
+431.5041 	EXP 	New trial (rep=0, index=39): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+431.5068 	DATA 	Keypress: x
+431.5188 	EXP 	word: autoDraw = False
+431.5188 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+432.0189 	EXP 	word: autoDraw = True
+432.5208 	EXP 	New trial (rep=0, index=40): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+432.5231 	DATA 	Keypress: r
+432.5356 	EXP 	word: autoDraw = False
+432.5356 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+433.0357 	EXP 	word: autoDraw = True
+433.5710 	EXP 	New trial (rep=0, index=41): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+433.5734 	DATA 	Keypress: g
+433.5858 	EXP 	word: autoDraw = False
+433.5858 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+434.0861 	EXP 	word: autoDraw = True
+434.5708 	EXP 	New trial (rep=0, index=42): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+434.5729 	DATA 	Keypress: g
+434.5859 	EXP 	word: autoDraw = False
+434.5859 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+435.0860 	EXP 	word: autoDraw = True
+435.6544 	EXP 	New trial (rep=0, index=43): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+435.6568 	DATA 	Keypress: x
+435.6695 	EXP 	word: autoDraw = False
+435.6695 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+436.1699 	EXP 	word: autoDraw = True
+436.6044 	EXP 	New trial (rep=0, index=44): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+436.6067 	DATA 	Keypress: b
+436.6196 	EXP 	word: autoDraw = False
+436.6196 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+437.1030 	EXP 	word: autoDraw = True
+437.7548 	EXP 	New trial (rep=0, index=45): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+437.7574 	DATA 	Keypress: b
+437.7699 	EXP 	word: autoDraw = False
+437.7699 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+438.2698 	EXP 	word: autoDraw = True
+438.9390 	EXP 	New trial (rep=0, index=46): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+438.9413 	DATA 	Keypress: r
+438.9534 	EXP 	word: autoDraw = False
+438.9534 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+439.4534 	EXP 	word: autoDraw = True
+439.9222 	EXP 	New trial (rep=0, index=47): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+439.9246 	DATA 	Keypress: g
+439.9368 	EXP 	word: autoDraw = False
+439.9368 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+440.4369 	EXP 	word: autoDraw = True
+440.9396 	EXP 	New trial (rep=0, index=48): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+440.9419 	DATA 	Keypress: r
+440.9540 	EXP 	word: autoDraw = False
+440.9540 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+441.4537 	EXP 	word: autoDraw = True
+441.9560 	EXP 	New trial (rep=0, index=49): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+441.9584 	DATA 	Keypress: r
+441.9706 	EXP 	word: autoDraw = False
+441.9706 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+442.4706 	EXP 	word: autoDraw = True
+443.0329 	DATA 	Keypress: g
+443.0375 	EXP 	word: autoDraw = False
+443.0375 	EXP 	instrText_3: autoDraw = True
+446.0089 	DATA 	Keypress: space
+446.0434 	EXP 	Imported noncongruent.xlsx as conditions, 50 conditions, 4 params
+446.0448 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+446.0452 	EXP 	New trial (rep=0, index=0): {'words': 'red', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+446.0498 	EXP 	instrText_3: autoDraw = False
+446.0498 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+446.5379 	EXP 	word: autoDraw = True
+447.4422 	DATA 	Keypress: b
+447.4563 	EXP 	New trial (rep=0, index=1): {'words': 'green', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+447.4714 	EXP 	word: autoDraw = False
+447.4714 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+447.9714 	EXP 	word: autoDraw = True
+448.5914 	DATA 	Keypress: x
+448.6064 	EXP 	New trial (rep=0, index=2): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+448.6216 	EXP 	word: autoDraw = False
+448.6216 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+449.1221 	EXP 	word: autoDraw = True
+449.7233 	EXP 	New trial (rep=0, index=3): {'words': 'red', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+449.7254 	DATA 	Keypress: g
+449.7384 	EXP 	word: autoDraw = False
+449.7384 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+450.2384 	EXP 	word: autoDraw = True
+451.0239 	EXP 	New trial (rep=0, index=4): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+451.0268 	DATA 	Keypress: g
+451.0386 	EXP 	word: autoDraw = False
+451.0386 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+451.5387 	EXP 	word: autoDraw = True
+452.2252 	DATA 	Keypress: x
+452.2403 	EXP 	New trial (rep=0, index=5): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+452.2555 	EXP 	word: autoDraw = False
+452.2555 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+452.7555 	EXP 	word: autoDraw = True
+453.6423 	EXP 	New trial (rep=0, index=6): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+453.6468 	DATA 	Keypress: g
+453.6557 	EXP 	word: autoDraw = False
+453.6557 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+454.1558 	EXP 	word: autoDraw = True
+454.8428 	DATA 	Keypress: x
+454.8585 	EXP 	New trial (rep=0, index=7): {'words': 'blue', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+454.8725 	EXP 	word: autoDraw = False
+454.8725 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+455.3726 	EXP 	word: autoDraw = True
+455.9077 	EXP 	New trial (rep=0, index=8): {'words': 'green', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+455.9101 	DATA 	Keypress: r
+455.9227 	EXP 	word: autoDraw = False
+455.9227 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+456.4228 	EXP 	word: autoDraw = True
+457.2249 	EXP 	New trial (rep=0, index=9): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+457.2271 	DATA 	Keypress: b
+457.2397 	EXP 	word: autoDraw = False
+457.2397 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+457.7397 	EXP 	word: autoDraw = True
+458.4911 	EXP 	New trial (rep=0, index=10): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+458.4932 	DATA 	Keypress: x
+458.5066 	EXP 	word: autoDraw = False
+458.5066 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+459.0066 	EXP 	word: autoDraw = True
+459.4755 	EXP 	New trial (rep=0, index=11): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+459.4782 	DATA 	Keypress: r
+459.4903 	EXP 	word: autoDraw = False
+459.4903 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+459.9900 	EXP 	word: autoDraw = True
+460.5089 	EXP 	New trial (rep=0, index=12): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+460.5112 	DATA 	Keypress: g
+460.5235 	EXP 	word: autoDraw = False
+460.5235 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+461.0236 	EXP 	word: autoDraw = True
+461.8423 	EXP 	New trial (rep=0, index=13): {'words': 'green', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+461.8447 	DATA 	Keypress: g
+461.8573 	EXP 	word: autoDraw = False
+461.8573 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+462.3570 	EXP 	word: autoDraw = True
+463.1441 	DATA 	Keypress: b
+463.1606 	EXP 	New trial (rep=0, index=14): {'words': 'blue', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+463.1740 	EXP 	word: autoDraw = False
+463.1740 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+463.6739 	EXP 	word: autoDraw = True
+464.2593 	EXP 	New trial (rep=0, index=15): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+464.2616 	DATA 	Keypress: r
+464.2740 	EXP 	word: autoDraw = False
+464.2740 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+464.7746 	EXP 	word: autoDraw = True
+465.3258 	EXP 	New trial (rep=0, index=16): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+465.3282 	DATA 	Keypress: r
+465.3410 	EXP 	word: autoDraw = False
+465.3410 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+465.8410 	EXP 	word: autoDraw = True
+466.4925 	EXP 	New trial (rep=0, index=17): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+466.4948 	DATA 	Keypress: b
+466.5078 	EXP 	word: autoDraw = False
+466.5078 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+467.0078 	EXP 	word: autoDraw = True
+467.7622 	DATA 	Keypress: g
+467.7762 	EXP 	New trial (rep=0, index=18): {'words': 'green', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+467.7914 	EXP 	word: autoDraw = False
+467.7914 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+468.2914 	EXP 	word: autoDraw = True
+469.0430 	EXP 	New trial (rep=0, index=19): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+469.0453 	DATA 	Keypress: x
+469.0583 	EXP 	word: autoDraw = False
+469.0583 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+469.5416 	EXP 	word: autoDraw = True
+470.0284 	EXP 	New trial (rep=0, index=20): {'words': 'blue', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+470.0335 	DATA 	Keypress: x
+470.0417 	EXP 	word: autoDraw = False
+470.0417 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+470.5417 	EXP 	word: autoDraw = True
+471.1286 	DATA 	Keypress: r
+471.1432 	EXP 	New trial (rep=0, index=21): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+471.1586 	EXP 	word: autoDraw = False
+471.1586 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+471.6586 	EXP 	word: autoDraw = True
+472.1935 	EXP 	New trial (rep=0, index=22): {'words': 'green', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+472.1956 	DATA 	Keypress: r
+472.2088 	EXP 	word: autoDraw = False
+472.2088 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+472.7088 	EXP 	word: autoDraw = True
+473.3625 	DATA 	Keypress: x
+473.3772 	EXP 	New trial (rep=0, index=23): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+473.3923 	EXP 	word: autoDraw = False
+473.3923 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+473.8923 	EXP 	word: autoDraw = True
+474.3785 	EXP 	New trial (rep=0, index=24): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+474.3832 	DATA 	Keypress: b
+474.3924 	EXP 	word: autoDraw = False
+474.3924 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+474.8926 	EXP 	word: autoDraw = True
+475.3468 	DATA 	Keypress: r
+475.3610 	EXP 	New trial (rep=0, index=25): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+475.3763 	EXP 	word: autoDraw = False
+475.3763 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+475.8759 	EXP 	word: autoDraw = True
+476.3276 	EXP 	New trial (rep=0, index=26): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+476.3297 	DATA 	Keypress: g
+476.3427 	EXP 	word: autoDraw = False
+476.3427 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+476.8428 	EXP 	word: autoDraw = True
+477.3783 	EXP 	New trial (rep=0, index=27): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+477.3807 	DATA 	Keypress: g
+477.3929 	EXP 	word: autoDraw = False
+477.3929 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+477.8930 	EXP 	word: autoDraw = True
+478.3147 	DATA 	Keypress: g
+478.3279 	EXP 	New trial (rep=0, index=28): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+478.3430 	EXP 	word: autoDraw = False
+478.3430 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+478.8431 	EXP 	word: autoDraw = True
+479.3786 	EXP 	New trial (rep=0, index=29): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+479.3809 	DATA 	Keypress: b
+479.3932 	EXP 	word: autoDraw = False
+479.3932 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+479.8933 	EXP 	word: autoDraw = True
+480.2283 	EXP 	New trial (rep=0, index=30): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+480.2305 	DATA 	Keypress: b
+480.2433 	EXP 	word: autoDraw = False
+480.2433 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+480.7434 	EXP 	word: autoDraw = True
+481.2976 	DATA 	Keypress: x
+481.3117 	EXP 	New trial (rep=0, index=31): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+481.3268 	EXP 	word: autoDraw = False
+481.3268 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+481.8270 	EXP 	word: autoDraw = True
+482.3458 	EXP 	New trial (rep=0, index=32): {'words': 'black', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+482.3481 	DATA 	Keypress: r
+482.3603 	EXP 	word: autoDraw = False
+482.3603 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+482.8604 	EXP 	word: autoDraw = True
+483.4121 	EXP 	New trial (rep=0, index=33): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+483.4143 	DATA 	Keypress: r
+483.4272 	EXP 	word: autoDraw = False
+483.4272 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+483.9272 	EXP 	word: autoDraw = True
+484.3796 	EXP 	New trial (rep=0, index=34): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+484.3819 	DATA 	Keypress: r
+484.3940 	EXP 	word: autoDraw = False
+484.3940 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+484.8941 	EXP 	word: autoDraw = True
+485.4958 	EXP 	New trial (rep=0, index=35): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+485.4982 	DATA 	Keypress: g
+485.5109 	EXP 	word: autoDraw = False
+485.5109 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+486.0109 	EXP 	word: autoDraw = True
+486.6811 	DATA 	Keypress: r
+486.6958 	EXP 	New trial (rep=0, index=36): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+486.7110 	EXP 	word: autoDraw = False
+486.7110 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+487.2111 	EXP 	word: autoDraw = True
+487.6962 	EXP 	New trial (rep=0, index=37): {'words': 'black', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+487.6992 	DATA 	Keypress: r
+487.7112 	EXP 	word: autoDraw = False
+487.7112 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+488.2112 	EXP 	word: autoDraw = True
+488.7468 	EXP 	New trial (rep=0, index=38): {'words': 'red', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+488.7494 	DATA 	Keypress: r
+488.7613 	EXP 	word: autoDraw = False
+488.7613 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+489.2615 	EXP 	word: autoDraw = True
+489.7802 	EXP 	New trial (rep=0, index=39): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+489.7825 	DATA 	Keypress: b
+489.7949 	EXP 	word: autoDraw = False
+489.7949 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+490.2951 	EXP 	word: autoDraw = True
+490.7630 	EXP 	New trial (rep=0, index=40): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+490.7652 	DATA 	Keypress: x
+490.7783 	EXP 	word: autoDraw = False
+490.7783 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+491.2784 	EXP 	word: autoDraw = True
+491.7974 	EXP 	New trial (rep=0, index=41): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+491.8004 	DATA 	Keypress: b
+491.8119 	EXP 	word: autoDraw = False
+491.8119 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+492.3119 	EXP 	word: autoDraw = True
+492.7472 	EXP 	New trial (rep=0, index=42): {'words': 'red', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+492.7496 	DATA 	Keypress: x
+492.7621 	EXP 	word: autoDraw = False
+492.7621 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+493.2622 	EXP 	word: autoDraw = True
+493.7029 	DATA 	Keypress: b
+493.7142 	EXP 	New trial (rep=0, index=43): {'words': 'red', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+493.7288 	EXP 	word: autoDraw = False
+493.7288 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+494.2293 	EXP 	word: autoDraw = True
+494.8309 	EXP 	New trial (rep=0, index=44): {'words': 'black', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+494.8332 	DATA 	Keypress: r
+494.8456 	EXP 	word: autoDraw = False
+494.8456 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+495.3457 	EXP 	word: autoDraw = True
+496.9808 	EXP 	New trial (rep=0, index=45): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+496.9829 	DATA 	Keypress: r
+496.9961 	EXP 	word: autoDraw = False
+496.9961 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+497.4961 	EXP 	word: autoDraw = True
+498.2476 	EXP 	New trial (rep=0, index=46): {'words': 'green', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+498.2498 	DATA 	Keypress: g
+498.2632 	EXP 	word: autoDraw = False
+498.2632 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+498.7629 	EXP 	word: autoDraw = True
+499.3149 	EXP 	New trial (rep=0, index=47): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+499.3178 	DATA 	Keypress: b
+499.3297 	EXP 	word: autoDraw = False
+499.3297 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+499.8297 	EXP 	word: autoDraw = True
+500.2321 	EXP 	New trial (rep=0, index=48): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+500.2344 	DATA 	Keypress: b
+500.2465 	EXP 	word: autoDraw = False
+500.2465 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+500.7466 	EXP 	word: autoDraw = True
+501.3656 	EXP 	New trial (rep=0, index=49): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+501.3679 	DATA 	Keypress: g
+501.3801 	EXP 	word: autoDraw = False
+501.3801 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+501.8801 	EXP 	word: autoDraw = True
+502.4669 	DATA 	Keypress: x
+502.4803 	EXP 	word: autoDraw = False
+502.4803 	EXP 	text: autoDraw = True
+504.2442 	DATA 	Keypress: space
+504.2503 	EXP 	text: autoDraw = False
+552.1883 	EXP 	bhas_text: autoDraw = True
+852.2032 	EXP 	bhas_text: autoDraw = False
+852.2032 	EXP 	instrText: autoDraw = True
+854.8532 	EXP 	Imported neutral.xlsx as conditions, 50 conditions, 4 params
+854.8545 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+854.8550 	EXP 	New trial (rep=0, index=0): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+854.8572 	DATA 	Keypress: space
+854.8598 	EXP 	instrText: autoDraw = False
+854.8598 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+855.3370 	EXP 	word: autoDraw = True
+856.1388 	EXP 	New trial (rep=0, index=1): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+856.1409 	DATA 	Keypress: r
+856.1539 	EXP 	word: autoDraw = False
+856.1539 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+856.6539 	EXP 	word: autoDraw = True
+857.3235 	EXP 	New trial (rep=0, index=2): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+857.3283 	DATA 	Keypress: b
+857.3375 	EXP 	word: autoDraw = False
+857.3375 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+857.8377 	EXP 	word: autoDraw = True
+858.4418 	DATA 	Keypress: g
+858.4561 	EXP 	New trial (rep=0, index=3): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+858.4710 	EXP 	word: autoDraw = False
+858.4710 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+858.9709 	EXP 	word: autoDraw = True
+859.5393 	EXP 	New trial (rep=0, index=4): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+859.5415 	DATA 	Keypress: g
+859.5543 	EXP 	word: autoDraw = False
+859.5543 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+860.0545 	EXP 	word: autoDraw = True
+860.5225 	EXP 	New trial (rep=0, index=5): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+860.5246 	DATA 	Keypress: g
+860.5380 	EXP 	word: autoDraw = False
+860.5380 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+861.0380 	EXP 	word: autoDraw = True
+861.6246 	DATA 	Keypress: b
+861.6394 	EXP 	New trial (rep=0, index=6): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+861.6547 	EXP 	word: autoDraw = False
+861.6547 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+862.1548 	EXP 	word: autoDraw = True
+862.6069 	EXP 	New trial (rep=0, index=7): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+862.6109 	DATA 	Keypress: g
+862.6216 	EXP 	word: autoDraw = False
+862.6216 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+863.1217 	EXP 	word: autoDraw = True
+863.6587 	DATA 	Keypress: x
+863.6733 	EXP 	New trial (rep=0, index=8): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+863.6884 	EXP 	word: autoDraw = False
+863.6884 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+864.1884 	EXP 	word: autoDraw = True
+864.6904 	EXP 	New trial (rep=0, index=9): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+864.6927 	DATA 	Keypress: r
+864.7053 	EXP 	word: autoDraw = False
+864.7053 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+865.2052 	EXP 	word: autoDraw = True
+865.8902 	EXP 	New trial (rep=0, index=10): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+865.8922 	DATA 	Keypress: x
+865.9054 	EXP 	word: autoDraw = False
+865.9054 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+866.4055 	EXP 	word: autoDraw = True
+866.8403 	EXP 	New trial (rep=0, index=11): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+866.8423 	DATA 	Keypress: r
+866.8555 	EXP 	word: autoDraw = False
+866.8555 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+867.3556 	EXP 	word: autoDraw = True
+867.9077 	EXP 	New trial (rep=0, index=12): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+867.9100 	DATA 	Keypress: g
+867.9225 	EXP 	word: autoDraw = False
+867.9225 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+868.4225 	EXP 	word: autoDraw = True
+868.8595 	DATA 	Keypress: g
+868.8746 	EXP 	New trial (rep=0, index=13): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+868.8892 	EXP 	word: autoDraw = False
+868.8892 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+869.3893 	EXP 	word: autoDraw = True
+869.9764 	DATA 	Keypress: r
+869.9923 	EXP 	New trial (rep=0, index=14): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+870.0061 	EXP 	word: autoDraw = False
+870.0061 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+870.5063 	EXP 	word: autoDraw = True
+871.1917 	EXP 	New trial (rep=0, index=15): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+871.1939 	DATA 	Keypress: b
+871.2066 	EXP 	word: autoDraw = False
+871.2066 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+871.7063 	EXP 	word: autoDraw = True
+872.1929 	DATA 	Keypress: x
+872.2082 	EXP 	New trial (rep=0, index=16): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+872.2231 	EXP 	word: autoDraw = False
+872.2231 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+872.7235 	EXP 	word: autoDraw = True
+873.2581 	EXP 	New trial (rep=0, index=17): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+873.2603 	DATA 	Keypress: g
+873.2733 	EXP 	word: autoDraw = False
+873.2733 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+873.7733 	EXP 	word: autoDraw = True
+874.5250 	EXP 	New trial (rep=0, index=18): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+874.5271 	DATA 	Keypress: x
+874.5401 	EXP 	word: autoDraw = False
+874.5401 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+875.0402 	EXP 	word: autoDraw = True
+875.4422 	EXP 	New trial (rep=0, index=19): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+875.4445 	DATA 	Keypress: r
+875.4570 	EXP 	word: autoDraw = False
+875.4570 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+875.9573 	EXP 	word: autoDraw = True
+876.5264 	EXP 	New trial (rep=0, index=20): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+876.5308 	DATA 	Keypress: b
+876.5405 	EXP 	word: autoDraw = False
+876.5405 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+877.0406 	EXP 	word: autoDraw = True
+877.4426 	EXP 	New trial (rep=0, index=21): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+877.4450 	DATA 	Keypress: r
+877.4572 	EXP 	word: autoDraw = False
+877.4572 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+877.9573 	EXP 	word: autoDraw = True
+878.5423 	EXP 	New trial (rep=0, index=22): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+878.5443 	DATA 	Keypress: x
+878.5575 	EXP 	word: autoDraw = False
+878.5575 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+879.0575 	EXP 	word: autoDraw = True
+879.9931 	EXP 	New trial (rep=0, index=23): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+879.9954 	DATA 	Keypress: b
+880.0076 	EXP 	word: autoDraw = False
+880.0076 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+880.5077 	EXP 	word: autoDraw = True
+881.1427 	EXP 	New trial (rep=0, index=24): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+881.1448 	DATA 	Keypress: b
+881.1579 	EXP 	word: autoDraw = False
+881.1579 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+881.6579 	EXP 	word: autoDraw = True
+882.0787 	DATA 	Keypress: b
+882.0935 	EXP 	New trial (rep=0, index=25): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+882.1080 	EXP 	word: autoDraw = False
+882.1080 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+882.6081 	EXP 	word: autoDraw = True
+883.0103 	EXP 	New trial (rep=0, index=26): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+883.0126 	DATA 	Keypress: r
+883.0248 	EXP 	word: autoDraw = False
+883.0248 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+883.5250 	EXP 	word: autoDraw = True
+884.0266 	EXP 	New trial (rep=0, index=27): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+884.0304 	DATA 	Keypress: x
+884.0416 	EXP 	word: autoDraw = False
+884.0416 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+884.5417 	EXP 	word: autoDraw = True
+884.9941 	EXP 	New trial (rep=0, index=28): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+884.9964 	DATA 	Keypress: r
+885.0085 	EXP 	word: autoDraw = False
+885.0085 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+885.5085 	EXP 	word: autoDraw = True
+885.9446 	EXP 	New trial (rep=0, index=29): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+885.9470 	DATA 	Keypress: r
+885.9586 	EXP 	word: autoDraw = False
+885.9586 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+886.4587 	EXP 	word: autoDraw = True
+886.9120 	DATA 	Keypress: g
+886.9270 	EXP 	New trial (rep=0, index=30): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+886.9423 	EXP 	word: autoDraw = False
+886.9423 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+887.4426 	EXP 	word: autoDraw = True
+888.0604 	EXP 	New trial (rep=0, index=31): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+888.0624 	DATA 	Keypress: x
+888.0757 	EXP 	word: autoDraw = False
+888.0757 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+888.5590 	EXP 	word: autoDraw = True
+889.0277 	EXP 	New trial (rep=0, index=32): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+889.0301 	DATA 	Keypress: r
+889.0425 	EXP 	word: autoDraw = False
+889.0425 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+889.5430 	EXP 	word: autoDraw = True
+889.9280 	EXP 	New trial (rep=0, index=33): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+889.9304 	DATA 	Keypress: b
+889.9426 	EXP 	word: autoDraw = False
+889.9426 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+890.4426 	EXP 	word: autoDraw = True
+890.9609 	EXP 	New trial (rep=0, index=34): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+890.9630 	DATA 	Keypress: r
+890.9763 	EXP 	word: autoDraw = False
+890.9763 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+891.4761 	EXP 	word: autoDraw = True
+892.3947 	EXP 	New trial (rep=0, index=35): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+892.3973 	DATA 	Keypress: x
+892.4097 	EXP 	word: autoDraw = False
+892.4097 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+892.9097 	EXP 	word: autoDraw = True
+893.6280 	EXP 	New trial (rep=0, index=36): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+893.6301 	DATA 	Keypress: b
+893.6431 	EXP 	word: autoDraw = False
+893.6431 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+894.1432 	EXP 	word: autoDraw = True
+895.0122 	EXP 	New trial (rep=0, index=37): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+895.0145 	DATA 	Keypress: x
+895.0268 	EXP 	word: autoDraw = False
+895.0268 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+895.5268 	EXP 	word: autoDraw = True
+896.2285 	EXP 	New trial (rep=0, index=38): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+896.2306 	DATA 	Keypress: x
+896.2437 	EXP 	word: autoDraw = False
+896.2437 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+896.7436 	EXP 	word: autoDraw = True
+897.4457 	EXP 	New trial (rep=0, index=39): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+897.4485 	DATA 	Keypress: b
+897.4605 	EXP 	word: autoDraw = False
+897.4605 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+897.9606 	EXP 	word: autoDraw = True
+898.3793 	EXP 	New trial (rep=0, index=40): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+898.3817 	DATA 	Keypress: b
+898.3939 	EXP 	word: autoDraw = False
+898.3939 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+898.8940 	EXP 	word: autoDraw = True
+899.2794 	EXP 	New trial (rep=0, index=41): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+899.2817 	DATA 	Keypress: b
+899.2942 	EXP 	word: autoDraw = False
+899.2942 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+899.7941 	EXP 	word: autoDraw = True
+900.2796 	EXP 	New trial (rep=0, index=42): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+900.2820 	DATA 	Keypress: r
+900.2943 	EXP 	word: autoDraw = False
+900.2943 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+900.7947 	EXP 	word: autoDraw = True
+901.4295 	EXP 	New trial (rep=0, index=43): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'b', 'congruent': 0}
+901.4321 	DATA 	Keypress: x
+901.4445 	EXP 	word: autoDraw = False
+901.4445 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+901.9445 	EXP 	word: autoDraw = True
+902.5850 	DATA 	Keypress: b
+902.5966 	EXP 	New trial (rep=0, index=44): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+902.6114 	EXP 	word: autoDraw = False
+902.6114 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+903.1114 	EXP 	word: autoDraw = True
+903.9158 	DATA 	Keypress: g
+903.9297 	EXP 	New trial (rep=0, index=45): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+903.9449 	EXP 	word: autoDraw = False
+903.9449 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+904.4449 	EXP 	word: autoDraw = True
+904.9799 	EXP 	New trial (rep=0, index=46): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+904.9822 	DATA 	Keypress: g
+904.9951 	EXP 	word: autoDraw = False
+904.9951 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+905.4951 	EXP 	word: autoDraw = True
+905.9967 	EXP 	New trial (rep=0, index=47): {'words': 'red', 'letterColor': 'black', 'corrAns': 'r', 'congruent': 0}
+905.9991 	DATA 	Keypress: r
+906.0119 	EXP 	word: autoDraw = False
+906.0119 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+906.5119 	EXP 	word: autoDraw = True
+907.0301 	EXP 	New trial (rep=0, index=48): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+907.0321 	DATA 	Keypress: r
+907.0454 	EXP 	word: autoDraw = False
+907.0454 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+907.5455 	EXP 	word: autoDraw = True
+908.0997 	DATA 	Keypress: x
+908.1151 	EXP 	New trial (rep=0, index=49): {'words': 'green', 'letterColor': 'black', 'corrAns': 'g', 'congruent': 0}
+908.1289 	EXP 	word: autoDraw = False
+908.1289 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+908.6289 	EXP 	word: autoDraw = True
+909.1629 	EXP 	Imported congruent.xlsx as conditions, 50 conditions, 4 params
+909.1642 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+909.1645 	EXP 	New trial (rep=0, index=0): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+909.1667 	DATA 	Keypress: g
+909.1693 	EXP 	word: autoDraw = False
+909.1693 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+909.6624 	EXP 	word: autoDraw = True
+910.1140 	EXP 	New trial (rep=0, index=1): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+910.1160 	DATA 	Keypress: b
+910.1292 	EXP 	word: autoDraw = False
+910.1292 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+910.6292 	EXP 	word: autoDraw = True
+911.3486 	EXP 	New trial (rep=0, index=2): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+911.3533 	DATA 	Keypress: r
+911.3627 	EXP 	word: autoDraw = False
+911.3627 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+911.8628 	EXP 	word: autoDraw = True
+912.7045 	DATA 	Keypress: g
+912.7146 	EXP 	New trial (rep=0, index=3): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+912.7296 	EXP 	word: autoDraw = False
+912.7296 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+913.2296 	EXP 	word: autoDraw = True
+914.2648 	EXP 	New trial (rep=0, index=4): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+914.2668 	DATA 	Keypress: b
+914.2799 	EXP 	word: autoDraw = False
+914.2799 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+914.7799 	EXP 	word: autoDraw = True
+916.0334 	DATA 	Keypress: g
+916.0483 	EXP 	New trial (rep=0, index=5): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+916.0635 	EXP 	word: autoDraw = False
+916.0635 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+916.5635 	EXP 	word: autoDraw = True
+917.3984 	EXP 	New trial (rep=0, index=6): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+917.4005 	DATA 	Keypress: b
+917.4137 	EXP 	word: autoDraw = False
+917.4137 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+917.9138 	EXP 	word: autoDraw = True
+918.4327 	EXP 	New trial (rep=0, index=7): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+918.4350 	DATA 	Keypress: r
+918.4475 	EXP 	word: autoDraw = False
+918.4475 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+918.9476 	EXP 	word: autoDraw = True
+919.6663 	EXP 	New trial (rep=0, index=8): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+919.6692 	DATA 	Keypress: b
+919.6807 	EXP 	word: autoDraw = False
+919.6807 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+920.1811 	EXP 	word: autoDraw = True
+920.9330 	EXP 	New trial (rep=0, index=9): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+920.9353 	DATA 	Keypress: x
+920.9476 	EXP 	word: autoDraw = False
+920.9476 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+921.4476 	EXP 	word: autoDraw = True
+922.8673 	EXP 	New trial (rep=0, index=10): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+922.8721 	DATA 	Keypress: g
+922.8814 	EXP 	word: autoDraw = False
+922.8814 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+923.3813 	EXP 	word: autoDraw = True
+924.4503 	EXP 	New trial (rep=0, index=11): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+924.4526 	DATA 	Keypress: b
+924.4649 	EXP 	word: autoDraw = False
+924.4649 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+924.9650 	EXP 	word: autoDraw = True
+925.6004 	EXP 	New trial (rep=0, index=12): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+925.6028 	DATA 	Keypress: b
+925.6150 	EXP 	word: autoDraw = False
+925.6150 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+926.1151 	EXP 	word: autoDraw = True
+926.7685 	DATA 	Keypress: g
+926.7837 	EXP 	New trial (rep=0, index=13): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+926.7986 	EXP 	word: autoDraw = False
+926.7986 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+927.2986 	EXP 	word: autoDraw = True
+927.7502 	EXP 	New trial (rep=0, index=14): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+927.7523 	DATA 	Keypress: g
+927.7653 	EXP 	word: autoDraw = False
+927.7653 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+928.2654 	EXP 	word: autoDraw = True
+928.7173 	EXP 	New trial (rep=0, index=15): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+928.7198 	DATA 	Keypress: r
+928.7322 	EXP 	word: autoDraw = False
+928.7322 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+929.2322 	EXP 	word: autoDraw = True
+929.7224 	DATA 	Keypress: r
+929.7339 	EXP 	New trial (rep=0, index=16): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+929.7492 	EXP 	word: autoDraw = False
+929.7492 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+930.2490 	EXP 	word: autoDraw = True
+930.7680 	EXP 	New trial (rep=0, index=17): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+930.7704 	DATA 	Keypress: r
+930.7825 	EXP 	word: autoDraw = False
+930.7825 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+931.2826 	EXP 	word: autoDraw = True
+931.9531 	DATA 	Keypress: x
+931.9681 	EXP 	New trial (rep=0, index=18): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+931.9827 	EXP 	word: autoDraw = False
+931.9827 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+932.4828 	EXP 	word: autoDraw = True
+933.3849 	EXP 	New trial (rep=0, index=19): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+933.3873 	DATA 	Keypress: g
+933.3996 	EXP 	word: autoDraw = False
+933.3996 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+933.8997 	EXP 	word: autoDraw = True
+934.3517 	EXP 	New trial (rep=0, index=20): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+934.3540 	DATA 	Keypress: g
+934.3663 	EXP 	word: autoDraw = False
+934.3663 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+934.8665 	EXP 	word: autoDraw = True
+935.5517 	EXP 	New trial (rep=0, index=21): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+935.5539 	DATA 	Keypress: x
+935.5667 	EXP 	word: autoDraw = False
+935.5667 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+936.0667 	EXP 	word: autoDraw = True
+937.1374 	DATA 	Keypress: b
+937.1519 	EXP 	New trial (rep=0, index=22): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+937.1670 	EXP 	word: autoDraw = False
+937.1670 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+937.6669 	EXP 	word: autoDraw = True
+938.0689 	EXP 	New trial (rep=0, index=23): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+938.0712 	DATA 	Keypress: r
+938.0837 	EXP 	word: autoDraw = False
+938.0837 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+938.5837 	EXP 	word: autoDraw = True
+939.1521 	EXP 	New trial (rep=0, index=24): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+939.1542 	DATA 	Keypress: b
+939.1672 	EXP 	word: autoDraw = False
+939.1672 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+939.6674 	EXP 	word: autoDraw = True
+940.2359 	EXP 	New trial (rep=0, index=25): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+940.2381 	DATA 	Keypress: b
+940.2507 	EXP 	word: autoDraw = False
+940.2507 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+940.7508 	EXP 	word: autoDraw = True
+941.2361 	EXP 	New trial (rep=0, index=26): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+941.2384 	DATA 	Keypress: b
+941.2509 	EXP 	word: autoDraw = False
+941.2509 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+941.7509 	EXP 	word: autoDraw = True
+942.2858 	EXP 	New trial (rep=0, index=27): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+942.2880 	DATA 	Keypress: r
+942.3011 	EXP 	word: autoDraw = False
+942.3011 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+942.8015 	EXP 	word: autoDraw = True
+943.4194 	EXP 	New trial (rep=0, index=28): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+943.4215 	DATA 	Keypress: x
+943.4346 	EXP 	word: autoDraw = False
+943.4346 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+943.9347 	EXP 	word: autoDraw = True
+944.5200 	EXP 	New trial (rep=0, index=29): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+944.5223 	DATA 	Keypress: r
+944.5347 	EXP 	word: autoDraw = False
+944.5347 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+945.0348 	EXP 	word: autoDraw = True
+945.6697 	EXP 	New trial (rep=0, index=30): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+945.6717 	DATA 	Keypress: g
+945.6850 	EXP 	word: autoDraw = False
+945.6850 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+946.1683 	EXP 	word: autoDraw = True
+946.8215 	EXP 	New trial (rep=0, index=31): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+946.8261 	DATA 	Keypress: b
+946.8351 	EXP 	word: autoDraw = False
+946.8351 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+947.3351 	EXP 	word: autoDraw = True
+947.9368 	EXP 	New trial (rep=0, index=32): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+947.9391 	DATA 	Keypress: g
+947.9519 	EXP 	word: autoDraw = False
+947.9519 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+948.4523 	EXP 	word: autoDraw = True
+948.8876 	EXP 	New trial (rep=0, index=33): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+948.8900 	DATA 	Keypress: r
+948.9021 	EXP 	word: autoDraw = False
+948.9021 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+949.4021 	EXP 	word: autoDraw = True
+949.8545 	EXP 	New trial (rep=0, index=34): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+949.8569 	DATA 	Keypress: r
+949.8690 	EXP 	word: autoDraw = False
+949.8690 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+950.3689 	EXP 	word: autoDraw = True
+950.9062 	DATA 	Keypress: g
+950.9208 	EXP 	New trial (rep=0, index=35): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+950.9358 	EXP 	word: autoDraw = False
+950.9358 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+951.4358 	EXP 	word: autoDraw = True
+951.9880 	EXP 	New trial (rep=0, index=36): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+951.9903 	DATA 	Keypress: x
+952.0026 	EXP 	word: autoDraw = False
+952.0026 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+952.5027 	EXP 	word: autoDraw = True
+953.2565 	DATA 	Keypress: g
+953.2714 	EXP 	New trial (rep=0, index=37): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+953.2862 	EXP 	word: autoDraw = False
+953.2862 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+953.7862 	EXP 	word: autoDraw = True
+954.4889 	EXP 	New trial (rep=0, index=38): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+954.4935 	DATA 	Keypress: b
+954.5030 	EXP 	word: autoDraw = False
+954.5030 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+955.0033 	EXP 	word: autoDraw = True
+955.5218 	EXP 	New trial (rep=0, index=39): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+955.5242 	DATA 	Keypress: x
+955.5365 	EXP 	word: autoDraw = False
+955.5365 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+956.0366 	EXP 	word: autoDraw = True
+957.0882 	EXP 	New trial (rep=0, index=40): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+957.0903 	DATA 	Keypress: b
+957.1034 	EXP 	word: autoDraw = False
+957.1034 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+957.6035 	EXP 	word: autoDraw = True
+958.8389 	EXP 	New trial (rep=0, index=41): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+958.8411 	DATA 	Keypress: x
+958.8537 	EXP 	word: autoDraw = False
+958.8537 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+959.3537 	EXP 	word: autoDraw = True
+959.9060 	EXP 	New trial (rep=0, index=42): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+959.9086 	DATA 	Keypress: r
+959.9206 	EXP 	word: autoDraw = False
+959.9206 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+960.4206 	EXP 	word: autoDraw = True
+960.9396 	EXP 	New trial (rep=0, index=43): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+960.9420 	DATA 	Keypress: g
+960.9541 	EXP 	word: autoDraw = False
+960.9541 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+961.4541 	EXP 	word: autoDraw = True
+961.8724 	EXP 	New trial (rep=0, index=44): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+961.8747 	DATA 	Keypress: g
+961.8875 	EXP 	word: autoDraw = False
+961.8875 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+962.3875 	EXP 	word: autoDraw = True
+962.9731 	EXP 	New trial (rep=0, index=45): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+962.9754 	DATA 	Keypress: x
+962.9881 	EXP 	word: autoDraw = False
+962.9881 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+963.4878 	EXP 	word: autoDraw = True
+964.1065 	EXP 	New trial (rep=0, index=46): {'words': 'red', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 1}
+964.1090 	DATA 	Keypress: x
+964.1212 	EXP 	word: autoDraw = False
+964.1212 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+964.6212 	EXP 	word: autoDraw = True
+965.1066 	EXP 	New trial (rep=0, index=47): {'words': 'green', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 1}
+965.1094 	DATA 	Keypress: r
+965.1214 	EXP 	word: autoDraw = False
+965.1214 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+965.6215 	EXP 	word: autoDraw = True
+966.1401 	EXP 	New trial (rep=0, index=48): {'words': 'blue', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 1}
+966.1424 	DATA 	Keypress: g
+966.1549 	EXP 	word: autoDraw = False
+966.1549 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+966.6549 	EXP 	word: autoDraw = True
+967.2577 	EXP 	New trial (rep=0, index=49): {'words': 'black', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 1}
+967.2626 	DATA 	Keypress: b
+967.2721 	EXP 	word: autoDraw = False
+967.2721 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+967.7718 	EXP 	word: autoDraw = True
+968.3224 	EXP 	Imported noncongruent.xlsx as conditions, 50 conditions, 4 params
+968.3236 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+968.3240 	EXP 	New trial (rep=0, index=0): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+968.3264 	DATA 	Keypress: x
+968.3289 	EXP 	word: autoDraw = False
+968.3289 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+968.8219 	EXP 	word: autoDraw = True
+970.5239 	EXP 	New trial (rep=0, index=1): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+970.5259 	DATA 	Keypress: r
+970.5389 	EXP 	word: autoDraw = False
+970.5389 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+971.0391 	EXP 	word: autoDraw = True
+972.0431 	DATA 	Keypress: x
+972.0592 	EXP 	New trial (rep=0, index=2): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+972.0726 	EXP 	word: autoDraw = False
+972.0726 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+972.5726 	EXP 	word: autoDraw = True
+973.1581 	EXP 	New trial (rep=0, index=3): {'words': 'green', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+973.1603 	DATA 	Keypress: r
+973.1731 	EXP 	word: autoDraw = False
+973.1731 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+973.6728 	EXP 	word: autoDraw = True
+974.4411 	EXP 	New trial (rep=0, index=4): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+974.4431 	DATA 	Keypress: x
+974.4562 	EXP 	word: autoDraw = False
+974.4562 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+974.9563 	EXP 	word: autoDraw = True
+975.7242 	EXP 	New trial (rep=0, index=5): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+975.7263 	DATA 	Keypress: g
+975.7398 	EXP 	word: autoDraw = False
+975.7398 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+976.2235 	EXP 	word: autoDraw = True
+976.8753 	EXP 	New trial (rep=0, index=6): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+976.8776 	DATA 	Keypress: r
+976.8900 	EXP 	word: autoDraw = False
+976.8900 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+977.3901 	EXP 	word: autoDraw = True
+977.9605 	DATA 	Keypress: x
+977.9766 	EXP 	New trial (rep=0, index=7): {'words': 'blue', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+977.9902 	EXP 	word: autoDraw = False
+977.9902 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+978.4902 	EXP 	word: autoDraw = True
+979.2420 	EXP 	New trial (rep=0, index=8): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+979.2446 	DATA 	Keypress: r
+979.2570 	EXP 	word: autoDraw = False
+979.2570 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+979.7570 	EXP 	word: autoDraw = True
+981.0760 	EXP 	New trial (rep=0, index=9): {'words': 'red', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+981.0783 	DATA 	Keypress: g
+981.0907 	EXP 	word: autoDraw = False
+981.0907 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+981.5907 	EXP 	word: autoDraw = True
+982.3275 	DATA 	Keypress: b
+982.3422 	EXP 	New trial (rep=0, index=10): {'words': 'blue', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+982.3576 	EXP 	word: autoDraw = False
+982.3576 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+982.8575 	EXP 	word: autoDraw = True
+983.3096 	EXP 	New trial (rep=0, index=11): {'words': 'green', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+983.3120 	DATA 	Keypress: r
+983.3244 	EXP 	word: autoDraw = False
+983.3244 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+983.8247 	EXP 	word: autoDraw = True
+984.6095 	EXP 	New trial (rep=0, index=12): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+984.6117 	DATA 	Keypress: b
+984.6246 	EXP 	word: autoDraw = False
+984.6246 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+985.1246 	EXP 	word: autoDraw = True
+985.5774 	EXP 	New trial (rep=0, index=13): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+985.5798 	DATA 	Keypress: g
+985.5914 	EXP 	word: autoDraw = False
+985.5914 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+986.0914 	EXP 	word: autoDraw = True
+986.7948 	DATA 	Keypress: b
+986.8094 	EXP 	New trial (rep=0, index=14): {'words': 'black', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+986.8248 	EXP 	word: autoDraw = False
+986.8248 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+987.3249 	EXP 	word: autoDraw = True
+987.9790 	DATA 	Keypress: r
+987.9946 	EXP 	New trial (rep=0, index=15): {'words': 'green', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+988.0085 	EXP 	word: autoDraw = False
+988.0085 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+988.5084 	EXP 	word: autoDraw = True
+989.4101 	EXP 	New trial (rep=0, index=16): {'words': 'green', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+989.4121 	DATA 	Keypress: g
+989.4253 	EXP 	word: autoDraw = False
+989.4253 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+989.9253 	EXP 	word: autoDraw = True
+990.8608 	EXP 	New trial (rep=0, index=17): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+990.8631 	DATA 	Keypress: x
+990.8755 	EXP 	word: autoDraw = False
+990.8755 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+991.3756 	EXP 	word: autoDraw = True
+992.2277 	EXP 	New trial (rep=0, index=18): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+992.2301 	DATA 	Keypress: x
+992.2423 	EXP 	word: autoDraw = False
+992.2423 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+992.7425 	EXP 	word: autoDraw = True
+993.3606 	EXP 	New trial (rep=0, index=19): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+993.3627 	DATA 	Keypress: g
+993.3759 	EXP 	word: autoDraw = False
+993.3759 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+993.8764 	EXP 	word: autoDraw = True
+994.3292 	EXP 	New trial (rep=0, index=20): {'words': 'green', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+994.3338 	DATA 	Keypress: r
+994.3428 	EXP 	word: autoDraw = False
+994.3428 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+994.8428 	EXP 	word: autoDraw = True
+995.3944 	EXP 	New trial (rep=0, index=21): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+995.3964 	DATA 	Keypress: x
+995.4096 	EXP 	word: autoDraw = False
+995.4096 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+995.9097 	EXP 	word: autoDraw = True
+996.4446 	EXP 	New trial (rep=0, index=22): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+996.4468 	DATA 	Keypress: b
+996.4598 	EXP 	word: autoDraw = False
+996.4598 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+996.9598 	EXP 	word: autoDraw = True
+997.3953 	EXP 	New trial (rep=0, index=23): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+997.3978 	DATA 	Keypress: b
+997.4099 	EXP 	word: autoDraw = False
+997.4099 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+997.9099 	EXP 	word: autoDraw = True
+998.9955 	EXP 	New trial (rep=0, index=24): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+998.9978 	DATA 	Keypress: x
+999.0102 	EXP 	word: autoDraw = False
+999.0102 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+999.5102 	EXP 	word: autoDraw = True
+1000.1956 	EXP 	New trial (rep=0, index=25): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1000.1982 	DATA 	Keypress: g
+1000.2104 	EXP 	word: autoDraw = False
+1000.2104 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1000.7104 	EXP 	word: autoDraw = True
+1001.3312 	DATA 	Keypress: g
+1001.3458 	EXP 	New trial (rep=0, index=26): {'words': 'red', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+1001.3605 	EXP 	word: autoDraw = False
+1001.3605 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+1001.8606 	EXP 	word: autoDraw = True
+1002.6479 	DATA 	Keypress: b
+1002.6633 	EXP 	New trial (rep=0, index=27): {'words': 'red', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1002.6774 	EXP 	word: autoDraw = False
+1002.6774 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1003.1774 	EXP 	word: autoDraw = True
+1004.0989 	DATA 	Keypress: g
+1004.1128 	EXP 	New trial (rep=0, index=28): {'words': 'black', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1004.1277 	EXP 	word: autoDraw = False
+1004.1277 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1004.6277 	EXP 	word: autoDraw = True
+1005.3633 	EXP 	New trial (rep=0, index=29): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1005.3656 	DATA 	Keypress: r
+1005.3779 	EXP 	word: autoDraw = False
+1005.3779 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1005.8780 	EXP 	word: autoDraw = True
+1006.4134 	EXP 	New trial (rep=0, index=30): {'words': 'black', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1006.4158 	DATA 	Keypress: g
+1006.4280 	EXP 	word: autoDraw = False
+1006.4280 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1006.9281 	EXP 	word: autoDraw = True
+1007.4463 	EXP 	New trial (rep=0, index=31): {'words': 'red', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+1007.4487 	DATA 	Keypress: r
+1007.4616 	EXP 	word: autoDraw = False
+1007.4616 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+1007.9616 	EXP 	word: autoDraw = True
+1008.4465 	EXP 	New trial (rep=0, index=32): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1008.4486 	DATA 	Keypress: b
+1008.4617 	EXP 	word: autoDraw = False
+1008.4617 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1008.9621 	EXP 	word: autoDraw = True
+1009.6135 	EXP 	New trial (rep=0, index=33): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+1009.6159 	DATA 	Keypress: g
+1009.6286 	EXP 	word: autoDraw = False
+1009.6286 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+1010.1286 	EXP 	word: autoDraw = True
+1011.1305 	EXP 	New trial (rep=0, index=34): {'words': 'blue', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1011.1326 	DATA 	Keypress: b
+1011.1455 	EXP 	word: autoDraw = False
+1011.1455 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1011.6455 	EXP 	word: autoDraw = True
+1012.1805 	EXP 	New trial (rep=0, index=35): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+1012.1827 	DATA 	Keypress: r
+1012.1956 	EXP 	word: autoDraw = False
+1012.1956 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+1012.6957 	EXP 	word: autoDraw = True
+1013.4493 	DATA 	Keypress: b
+1013.4643 	EXP 	New trial (rep=0, index=36): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1013.4791 	EXP 	word: autoDraw = False
+1013.4791 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1013.9793 	EXP 	word: autoDraw = True
+1014.6141 	EXP 	New trial (rep=0, index=37): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1014.6161 	DATA 	Keypress: g
+1014.6293 	EXP 	word: autoDraw = False
+1014.6293 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1015.1294 	EXP 	word: autoDraw = True
+1015.6979 	EXP 	New trial (rep=0, index=38): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1015.7003 	DATA 	Keypress: g
+1015.7129 	EXP 	word: autoDraw = False
+1015.7129 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1016.2133 	EXP 	word: autoDraw = True
+1017.2498 	DATA 	Keypress: r
+1017.2646 	EXP 	New trial (rep=0, index=39): {'words': 'red', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1017.2798 	EXP 	word: autoDraw = False
+1017.2798 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1017.7798 	EXP 	word: autoDraw = True
+1018.3813 	EXP 	New trial (rep=0, index=40): {'words': 'blue', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+1018.3834 	DATA 	Keypress: g
+1018.3967 	EXP 	word: autoDraw = False
+1018.3967 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+1018.8966 	EXP 	word: autoDraw = True
+1019.4820 	EXP 	New trial (rep=0, index=41): {'words': 'blue', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1019.4844 	DATA 	Keypress: x
+1019.4968 	EXP 	word: autoDraw = False
+1019.4968 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1019.9968 	EXP 	word: autoDraw = True
+1020.9817 	EXP 	New trial (rep=0, index=42): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1020.9838 	DATA 	Keypress: g
+1020.9971 	EXP 	word: autoDraw = False
+1020.9971 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1021.4974 	EXP 	word: autoDraw = True
+1021.9842 	DATA 	Keypress: r
+1021.9994 	EXP 	New trial (rep=0, index=43): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+1022.0139 	EXP 	word: autoDraw = False
+1022.0139 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+1022.5139 	EXP 	word: autoDraw = True
+1023.1839 	DATA 	Keypress: x
+1023.1991 	EXP 	New trial (rep=0, index=44): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+1023.2141 	EXP 	word: autoDraw = False
+1023.2141 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+1023.7141 	EXP 	word: autoDraw = True
+1024.3162 	EXP 	New trial (rep=0, index=45): {'words': 'black', 'letterColor': 'green', 'corrAns': 'g', 'congruent': 0}
+1024.3186 	DATA 	Keypress: x
+1024.3309 	EXP 	word: autoDraw = False
+1024.3309 	EXP 	word: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+1024.8310 	EXP 	word: autoDraw = True
+1025.6170 	EXP 	New trial (rep=0, index=46): {'words': 'black', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+1025.6193 	DATA 	Keypress: g
+1025.6311 	EXP 	word: autoDraw = False
+1025.6311 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+1026.1311 	EXP 	word: autoDraw = True
+1026.6337 	EXP 	New trial (rep=0, index=47): {'words': 'red', 'letterColor': 'black', 'corrAns': 'x', 'congruent': 0}
+1026.6360 	DATA 	Keypress: b
+1026.6479 	EXP 	word: autoDraw = False
+1026.6479 	EXP 	word: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+1027.1480 	EXP 	word: autoDraw = True
+1027.7687 	DATA 	Keypress: x
+1027.7828 	EXP 	New trial (rep=0, index=48): {'words': 'green', 'letterColor': 'blue', 'corrAns': 'b', 'congruent': 0}
+1027.7980 	EXP 	word: autoDraw = False
+1027.7980 	EXP 	word: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+1028.2982 	EXP 	word: autoDraw = True
+1029.7683 	DATA 	Keypress: b
+1029.7832 	EXP 	New trial (rep=0, index=49): {'words': 'green', 'letterColor': 'red', 'corrAns': 'r', 'congruent': 0}
+1029.7985 	EXP 	word: autoDraw = False
+1029.7985 	EXP 	word: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+1030.2819 	EXP 	word: autoDraw = True
+1030.9182 	DATA 	Keypress: r
+1030.9320 	EXP 	word: autoDraw = False
+1030.9320 	EXP 	inital_text: autoDraw = True
+1330.9470 	EXP 	inital_text: autoDraw = False
+1330.9470 	EXP 	text_5: autoDraw = True
+1336.3433 	EXP 	Imported letter_test.xlsx as conditions, 31 conditions, 2 params
+1336.3443 	EXP 	Created sequence: sequential, trialTypes=31, nReps=1, seed=None
+1336.3446 	EXP 	New trial (rep=0, index=0): {'lettertest': 'A', 'corresp': None}
+1336.4058 	DATA 	Keypress: space
+1336.4086 	EXP 	text_5: autoDraw = False
+1336.4086 	EXP 	text_7: height = 1.0
+1336.4086 	EXP 	text_7: height = 1.0
+1336.4086 	EXP 	text_7: height = 1.0
+1336.4086 	EXP 	text_7: text = 'A'
+1336.4086 	EXP 	text_7: autoDraw = True
+1337.8647 	EXP 	text_7: autoDraw = False
+1338.3512 	EXP 	New trial (rep=0, index=1): {'lettertest': 'G', 'corresp': None}
+1338.3703 	EXP 	text_7: height = 1.0
+1338.3703 	EXP 	text_7: height = 1.0
+1338.3703 	EXP 	text_7: height = 1.0
+1338.3703 	EXP 	text_7: text = 'G'
+1338.3703 	EXP 	text_7: autoDraw = True
+1339.8650 	EXP 	text_7: autoDraw = False
+1340.3488 	EXP 	New trial (rep=0, index=2): {'lettertest': 'A', 'corresp': ['space']}
+1340.3651 	EXP 	text_7: height = 1.0
+1340.3651 	EXP 	text_7: height = 1.0
+1340.3651 	EXP 	text_7: height = 1.0
+1340.3651 	EXP 	text_7: text = 'A'
+1340.3651 	EXP 	text_7: autoDraw = True
+1340.8349 	DATA 	Keypress: space
+1340.8514 	EXP 	text_7: autoDraw = False
+1341.3328 	EXP 	New trial (rep=0, index=3): {'lettertest': 'F', 'corresp': None}
+1341.3519 	EXP 	text_7: height = 1.0
+1341.3519 	EXP 	text_7: height = 1.0
+1341.3519 	EXP 	text_7: height = 1.0
+1341.3519 	EXP 	text_7: text = 'F'
+1341.3519 	EXP 	text_7: autoDraw = True
+1342.8655 	EXP 	text_7: autoDraw = False
+1343.3493 	EXP 	New trial (rep=0, index=4): {'lettertest': 'A', 'corresp': None}
+1343.3656 	EXP 	text_7: height = 1.0
+1343.3656 	EXP 	text_7: height = 1.0
+1343.3656 	EXP 	text_7: height = 1.0
+1343.3656 	EXP 	text_7: text = 'A'
+1343.3656 	EXP 	text_7: autoDraw = True
+1344.8662 	EXP 	text_7: autoDraw = False
+1345.3495 	EXP 	New trial (rep=0, index=5): {'lettertest': 'B', 'corresp': None}
+1345.3703 	EXP 	text_7: height = 1.0
+1345.3703 	EXP 	text_7: height = 1.0
+1345.3703 	EXP 	text_7: height = 1.0
+1345.3703 	EXP 	text_7: text = 'B'
+1345.3703 	EXP 	text_7: autoDraw = True
+1346.8661 	EXP 	text_7: autoDraw = False
+1347.3499 	EXP 	New trial (rep=0, index=6): {'lettertest': 'A', 'corresp': ['space']}
+1347.3662 	EXP 	text_7: height = 1.0
+1347.3662 	EXP 	text_7: height = 1.0
+1347.3662 	EXP 	text_7: height = 1.0
+1347.3662 	EXP 	text_7: text = 'A'
+1347.3662 	EXP 	text_7: autoDraw = True
+1347.9528 	DATA 	Keypress: space
+1347.9664 	EXP 	text_7: autoDraw = False
+1348.4509 	EXP 	New trial (rep=0, index=7): {'lettertest': 'B', 'corresp': ['space']}
+1348.4663 	EXP 	text_7: height = 1.0
+1348.4663 	EXP 	text_7: height = 1.0
+1348.4663 	EXP 	text_7: height = 1.0
+1348.4663 	EXP 	text_7: text = 'B'
+1348.4663 	EXP 	text_7: autoDraw = True
+1349.3516 	DATA 	Keypress: space
+1349.3832 	EXP 	text_7: autoDraw = False
+1349.8673 	EXP 	New trial (rep=0, index=8): {'lettertest': 'E', 'corresp': None}
+1349.8866 	EXP 	text_7: height = 1.0
+1349.8866 	EXP 	text_7: height = 1.0
+1349.8866 	EXP 	text_7: height = 1.0
+1349.8866 	EXP 	text_7: text = 'E'
+1349.8866 	EXP 	text_7: autoDraw = True
+1351.4002 	EXP 	text_7: autoDraw = False
+1351.8839 	EXP 	New trial (rep=0, index=9): {'lettertest': 'B', 'corresp': ['space']}
+1351.9003 	EXP 	text_7: height = 1.0
+1351.9003 	EXP 	text_7: height = 1.0
+1351.9003 	EXP 	text_7: height = 1.0
+1351.9003 	EXP 	text_7: text = 'B'
+1351.9003 	EXP 	text_7: autoDraw = True
+1352.9527 	DATA 	Keypress: space
+1352.9697 	EXP 	text_7: autoDraw = False
+1353.4515 	EXP 	New trial (rep=0, index=10): {'lettertest': 'E', 'corresp': ['space']}
+1353.4674 	EXP 	text_7: height = 1.0
+1353.4674 	EXP 	text_7: height = 1.0
+1353.4674 	EXP 	text_7: height = 1.0
+1353.4674 	EXP 	text_7: text = 'E'
+1353.4674 	EXP 	text_7: autoDraw = True
+1354.1702 	DATA 	Keypress: space
+1354.1840 	EXP 	text_7: autoDraw = False
+1354.6706 	EXP 	New trial (rep=0, index=11): {'lettertest': 'F', 'corresp': None}
+1354.6844 	EXP 	text_7: height = 1.0
+1354.6844 	EXP 	text_7: height = 1.0
+1354.6844 	EXP 	text_7: height = 1.0
+1354.6844 	EXP 	text_7: text = 'F'
+1354.6844 	EXP 	text_7: autoDraw = True
+1356.1843 	EXP 	text_7: autoDraw = False
+1356.1843 	EXP 	text_7: autoDraw = False
+1356.6710 	EXP 	New trial (rep=0, index=12): {'lettertest': 'G', 'corresp': None}
+1356.6843 	EXP 	text_7: height = 1.0
+1356.6843 	EXP 	text_7: height = 1.0
+1356.6843 	EXP 	text_7: height = 1.0
+1356.6843 	EXP 	text_7: text = 'G'
+1356.6843 	EXP 	text_7: autoDraw = True
+1358.1846 	EXP 	text_7: autoDraw = False
+1358.1846 	EXP 	text_7: autoDraw = False
+1358.6692 	EXP 	New trial (rep=0, index=13): {'lettertest': 'D', 'corresp': None}
+1358.6886 	EXP 	text_7: height = 1.0
+1358.6886 	EXP 	text_7: height = 1.0
+1358.6886 	EXP 	text_7: height = 1.0
+1358.6886 	EXP 	text_7: text = 'D'
+1358.6886 	EXP 	text_7: autoDraw = True
+1360.2017 	EXP 	text_7: autoDraw = False
+1360.6698 	EXP 	New trial (rep=0, index=14): {'lettertest': 'G', 'corresp': ['space']}
+1360.6850 	EXP 	text_7: height = 1.0
+1360.6850 	EXP 	text_7: height = 1.0
+1360.6850 	EXP 	text_7: height = 1.0
+1360.6850 	EXP 	text_7: text = 'G'
+1360.6850 	EXP 	text_7: autoDraw = True
+1361.1881 	DATA 	Keypress: space
+1361.2018 	EXP 	text_7: autoDraw = False
+1361.6861 	EXP 	New trial (rep=0, index=15): {'lettertest': 'D', 'corresp': ['space']}
+1361.7019 	EXP 	text_7: height = 1.0
+1361.7019 	EXP 	text_7: height = 1.0
+1361.7019 	EXP 	text_7: height = 1.0
+1361.7019 	EXP 	text_7: text = 'D'
+1361.7019 	EXP 	text_7: autoDraw = True
+1362.5718 	DATA 	Keypress: space
+1362.5854 	EXP 	text_7: autoDraw = False
+1363.0701 	EXP 	New trial (rep=0, index=16): {'lettertest': 'A', 'corresp': None}
+1363.0854 	EXP 	text_7: height = 1.0
+1363.0854 	EXP 	text_7: height = 1.0
+1363.0854 	EXP 	text_7: height = 1.0
+1363.0854 	EXP 	text_7: text = 'A'
+1363.0854 	EXP 	text_7: autoDraw = True
+1364.5857 	EXP 	text_7: autoDraw = False
+1364.5857 	EXP 	text_7: autoDraw = False
+1365.0702 	EXP 	New trial (rep=0, index=17): {'lettertest': 'F', 'corresp': None}
+1365.0858 	EXP 	text_7: height = 1.0
+1365.0858 	EXP 	text_7: height = 1.0
+1365.0858 	EXP 	text_7: height = 1.0
+1365.0858 	EXP 	text_7: text = 'F'
+1365.0858 	EXP 	text_7: autoDraw = True
+1366.5860 	EXP 	text_7: autoDraw = False
+1366.5860 	EXP 	text_7: autoDraw = False
+1367.0702 	EXP 	New trial (rep=0, index=18): {'lettertest': 'A', 'corresp': None}
+1367.0860 	EXP 	text_7: height = 1.0
+1367.0860 	EXP 	text_7: height = 1.0
+1367.0860 	EXP 	text_7: height = 1.0
+1367.0860 	EXP 	text_7: text = 'A'
+1367.0860 	EXP 	text_7: autoDraw = True
+1367.6390 	DATA 	Keypress: space
+1367.6528 	EXP 	text_7: autoDraw = False
+1368.1375 	EXP 	New trial (rep=0, index=19): {'lettertest': 'F', 'corresp': ['space']}
+1368.1529 	EXP 	text_7: height = 1.0
+1368.1529 	EXP 	text_7: height = 1.0
+1368.1529 	EXP 	text_7: height = 1.0
+1368.1529 	EXP 	text_7: text = 'F'
+1368.1529 	EXP 	text_7: autoDraw = True
+1369.0077 	DATA 	Keypress: space
+1369.0197 	EXP 	text_7: autoDraw = False
+1369.5041 	EXP 	New trial (rep=0, index=20): {'lettertest': 'E', 'corresp': None}
+1369.5198 	EXP 	text_7: height = 1.0
+1369.5198 	EXP 	text_7: height = 1.0
+1369.5198 	EXP 	text_7: height = 1.0
+1369.5198 	EXP 	text_7: text = 'E'
+1369.5198 	EXP 	text_7: autoDraw = True
+1371.0200 	EXP 	text_7: autoDraw = False
+1371.0200 	EXP 	text_7: autoDraw = False
+1371.5051 	EXP 	New trial (rep=0, index=21): {'lettertest': 'B', 'corresp': None}
+1371.5202 	EXP 	text_7: height = 1.0
+1371.5202 	EXP 	text_7: height = 1.0
+1371.5202 	EXP 	text_7: height = 1.0
+1371.5202 	EXP 	text_7: text = 'B'
+1371.5202 	EXP 	text_7: autoDraw = True
+1373.0203 	EXP 	text_7: autoDraw = False
+1373.0203 	EXP 	text_7: autoDraw = False
+1373.5045 	EXP 	New trial (rep=0, index=22): {'lettertest': 'E', 'corresp': ['space']}
+1373.5204 	EXP 	text_7: height = 1.0
+1373.5204 	EXP 	text_7: height = 1.0
+1373.5204 	EXP 	text_7: height = 1.0
+1373.5204 	EXP 	text_7: text = 'E'
+1373.5204 	EXP 	text_7: autoDraw = True
+1374.1227 	DATA 	Keypress: space
+1374.1403 	EXP 	text_7: autoDraw = False
+1374.6216 	EXP 	New trial (rep=0, index=23): {'lettertest': 'C', 'corresp': None}
+1374.6415 	EXP 	text_7: height = 1.0
+1374.6415 	EXP 	text_7: height = 1.0
+1374.6415 	EXP 	text_7: height = 1.0
+1374.6415 	EXP 	text_7: text = 'C'
+1374.6415 	EXP 	text_7: autoDraw = True
+1376.1541 	EXP 	text_7: autoDraw = False
+1376.6411 	EXP 	New trial (rep=0, index=24): {'lettertest': 'E', 'corresp': None}
+1376.6543 	EXP 	text_7: height = 1.0
+1376.6543 	EXP 	text_7: height = 1.0
+1376.6543 	EXP 	text_7: height = 1.0
+1376.6543 	EXP 	text_7: text = 'E'
+1376.6543 	EXP 	text_7: autoDraw = True
+1377.8581 	DATA 	Keypress: space
+1377.8711 	EXP 	text_7: autoDraw = False
+1378.3555 	EXP 	New trial (rep=0, index=25): {'lettertest': 'C', 'corresp': ['space']}
+1378.3713 	EXP 	text_7: height = 1.0
+1378.3713 	EXP 	text_7: height = 1.0
+1378.3713 	EXP 	text_7: height = 1.0
+1378.3713 	EXP 	text_7: text = 'C'
+1378.3713 	EXP 	text_7: autoDraw = True
+1379.1587 	DATA 	Keypress: space
+1379.1714 	EXP 	text_7: autoDraw = False
+1379.6558 	EXP 	New trial (rep=0, index=26): {'lettertest': 'A', 'corresp': None}
+1379.6715 	EXP 	text_7: height = 1.0
+1379.6715 	EXP 	text_7: height = 1.0
+1379.6715 	EXP 	text_7: height = 1.0
+1379.6715 	EXP 	text_7: text = 'A'
+1379.6715 	EXP 	text_7: autoDraw = True
+1381.1716 	EXP 	text_7: autoDraw = False
+1381.1716 	EXP 	text_7: autoDraw = False
+1381.6559 	EXP 	New trial (rep=0, index=27): {'lettertest': 'D', 'corresp': None}
+1381.6718 	EXP 	text_7: height = 1.0
+1381.6718 	EXP 	text_7: height = 1.0
+1381.6718 	EXP 	text_7: height = 1.0
+1381.6718 	EXP 	text_7: text = 'D'
+1381.6718 	EXP 	text_7: autoDraw = True
+1383.1720 	EXP 	text_7: autoDraw = False
+1383.1720 	EXP 	text_7: autoDraw = False
+1383.6563 	EXP 	New trial (rep=0, index=28): {'lettertest': 'A', 'corresp': ['space']}
+1383.6721 	EXP 	text_7: height = 1.0
+1383.6721 	EXP 	text_7: height = 1.0
+1383.6721 	EXP 	text_7: height = 1.0
+1383.6721 	EXP 	text_7: text = 'A'
+1383.6721 	EXP 	text_7: autoDraw = True
+1384.5587 	DATA 	Keypress: space
+1384.5723 	EXP 	text_7: autoDraw = False
+1385.0566 	EXP 	New trial (rep=0, index=29): {'lettertest': 'F', 'corresp': None}
+1385.0723 	EXP 	text_7: height = 1.0
+1385.0723 	EXP 	text_7: height = 1.0
+1385.0723 	EXP 	text_7: height = 1.0
+1385.0723 	EXP 	text_7: text = 'F'
+1385.0723 	EXP 	text_7: autoDraw = True
+1386.5725 	EXP 	text_7: autoDraw = False
+1386.5725 	EXP 	text_7: autoDraw = False
+1387.0572 	EXP 	New trial (rep=0, index=30): {'lettertest': 'G', 'corresp': ['space']}
+1387.0726 	EXP 	text_7: height = 1.0
+1387.0726 	EXP 	text_7: height = 1.0
+1387.0726 	EXP 	text_7: height = 1.0
+1387.0726 	EXP 	text_7: text = 'G'
+1387.0726 	EXP 	text_7: autoDraw = True
+1388.5729 	EXP 	text_7: autoDraw = False
+1388.5729 	EXP 	text_7: autoDraw = False
+1389.0729 	EXP 	text_8: autoDraw = True
+1392.9599 	DATA 	Keypress: space
+1392.9735 	EXP 	text_8: autoDraw = False
+1392.9735 	EXP 	bhas_text: autoDraw = True
+1692.9885 	EXP 	bhas_text: autoDraw = False
+1692.9885 	EXP 	text_5: autoDraw = True
+1695.7678 	EXP 	Imported letter_test.xlsx as conditions, 31 conditions, 2 params
+1695.7688 	EXP 	Created sequence: sequential, trialTypes=31, nReps=1, seed=None
+1695.7692 	EXP 	New trial (rep=0, index=0): {'lettertest': 'A', 'corresp': None}
+1695.7736 	DATA 	Keypress: space
+1695.7765 	EXP 	text_5: autoDraw = False
+1695.7765 	EXP 	text_7: height = 1.0
+1695.7765 	EXP 	text_7: height = 1.0
+1695.7765 	EXP 	text_7: height = 1.0
+1695.7765 	EXP 	text_7: text = 'A'
+1695.7765 	EXP 	text_7: autoDraw = True
+1697.2891 	EXP 	text_7: autoDraw = False
+1697.7729 	EXP 	New trial (rep=0, index=1): {'lettertest': 'G', 'corresp': None}
+1697.7893 	EXP 	text_7: height = 1.0
+1697.7893 	EXP 	text_7: height = 1.0
+1697.7893 	EXP 	text_7: height = 1.0
+1697.7893 	EXP 	text_7: text = 'G'
+1697.7893 	EXP 	text_7: autoDraw = True
+1699.2895 	EXP 	text_7: autoDraw = False
+1699.7733 	EXP 	New trial (rep=0, index=2): {'lettertest': 'A', 'corresp': ['space']}
+1699.7896 	EXP 	text_7: height = 1.0
+1699.7896 	EXP 	text_7: height = 1.0
+1699.7896 	EXP 	text_7: height = 1.0
+1699.7896 	EXP 	text_7: text = 'A'
+1699.7896 	EXP 	text_7: autoDraw = True
+1700.4089 	DATA 	Keypress: space
+1700.4398 	EXP 	text_7: autoDraw = False
+1700.9241 	EXP 	New trial (rep=0, index=3): {'lettertest': 'F', 'corresp': None}
+1700.9402 	EXP 	text_7: height = 1.0
+1700.9402 	EXP 	text_7: height = 1.0
+1700.9402 	EXP 	text_7: height = 1.0
+1700.9402 	EXP 	text_7: text = 'F'
+1700.9402 	EXP 	text_7: autoDraw = True
+1702.4400 	EXP 	text_7: autoDraw = False
+1702.4400 	EXP 	text_7: autoDraw = False
+1702.9244 	EXP 	New trial (rep=0, index=4): {'lettertest': 'A', 'corresp': None}
+1702.9402 	EXP 	text_7: height = 1.0
+1702.9402 	EXP 	text_7: height = 1.0
+1702.9402 	EXP 	text_7: height = 1.0
+1702.9402 	EXP 	text_7: text = 'A'
+1702.9402 	EXP 	text_7: autoDraw = True
+1703.6932 	DATA 	Keypress: space
+1703.7069 	EXP 	text_7: autoDraw = False
+1704.1910 	EXP 	New trial (rep=0, index=5): {'lettertest': 'B', 'corresp': None}
+1704.2069 	EXP 	text_7: height = 1.0
+1704.2069 	EXP 	text_7: height = 1.0
+1704.2069 	EXP 	text_7: height = 1.0
+1704.2069 	EXP 	text_7: text = 'B'
+1704.2069 	EXP 	text_7: autoDraw = True
+1705.7078 	EXP 	text_7: autoDraw = False
+1705.7078 	EXP 	text_7: autoDraw = False
+1706.1915 	EXP 	New trial (rep=0, index=6): {'lettertest': 'A', 'corresp': ['space']}
+1706.2072 	EXP 	text_7: height = 1.0
+1706.2072 	EXP 	text_7: height = 1.0
+1706.2072 	EXP 	text_7: height = 1.0
+1706.2072 	EXP 	text_7: text = 'A'
+1706.2072 	EXP 	text_7: autoDraw = True
+1707.2931 	DATA 	Keypress: space
+1707.3074 	EXP 	text_7: autoDraw = False
+1707.7917 	EXP 	New trial (rep=0, index=7): {'lettertest': 'B', 'corresp': ['space']}
+1707.8076 	EXP 	text_7: height = 1.0
+1707.8076 	EXP 	text_7: height = 1.0
+1707.8076 	EXP 	text_7: height = 1.0
+1707.8076 	EXP 	text_7: text = 'B'
+1707.8076 	EXP 	text_7: autoDraw = True
+1708.6610 	DATA 	Keypress: space
+1708.6744 	EXP 	text_7: autoDraw = False
+1709.1609 	EXP 	New trial (rep=0, index=8): {'lettertest': 'E', 'corresp': None}
+1709.1745 	EXP 	text_7: height = 1.0
+1709.1745 	EXP 	text_7: height = 1.0
+1709.1745 	EXP 	text_7: height = 1.0
+1709.1745 	EXP 	text_7: text = 'E'
+1709.1745 	EXP 	text_7: autoDraw = True
+1710.6746 	EXP 	text_7: autoDraw = False
+1710.6746 	EXP 	text_7: autoDraw = False
+1711.1611 	EXP 	New trial (rep=0, index=9): {'lettertest': 'B', 'corresp': ['space']}
+1711.1747 	EXP 	text_7: height = 1.0
+1711.1747 	EXP 	text_7: height = 1.0
+1711.1747 	EXP 	text_7: height = 1.0
+1711.1747 	EXP 	text_7: text = 'B'
+1711.1747 	EXP 	text_7: autoDraw = True
+1712.6750 	EXP 	text_7: autoDraw = False
+1712.6750 	EXP 	text_7: autoDraw = False
+1713.1595 	EXP 	New trial (rep=0, index=10): {'lettertest': 'E', 'corresp': ['space']}
+1713.1752 	EXP 	text_7: height = 1.0
+1713.1752 	EXP 	text_7: height = 1.0
+1713.1752 	EXP 	text_7: height = 1.0
+1713.1752 	EXP 	text_7: text = 'E'
+1713.1752 	EXP 	text_7: autoDraw = True
+1713.7440 	DATA 	Keypress: space
+1713.7611 	EXP 	text_7: autoDraw = False
+1714.2429 	EXP 	New trial (rep=0, index=11): {'lettertest': 'F', 'corresp': None}
+1714.2587 	EXP 	text_7: height = 1.0
+1714.2587 	EXP 	text_7: height = 1.0
+1714.2587 	EXP 	text_7: height = 1.0
+1714.2587 	EXP 	text_7: text = 'F'
+1714.2587 	EXP 	text_7: autoDraw = True
+1715.7588 	EXP 	text_7: autoDraw = False
+1715.7588 	EXP 	text_7: autoDraw = False
+1716.2429 	EXP 	New trial (rep=0, index=12): {'lettertest': 'G', 'corresp': None}
+1716.2589 	EXP 	text_7: height = 1.0
+1716.2589 	EXP 	text_7: height = 1.0
+1716.2589 	EXP 	text_7: height = 1.0
+1716.2589 	EXP 	text_7: text = 'G'
+1716.2589 	EXP 	text_7: autoDraw = True
+1717.7591 	EXP 	text_7: autoDraw = False
+1717.7591 	EXP 	text_7: autoDraw = False
+1718.2435 	EXP 	New trial (rep=0, index=13): {'lettertest': 'D', 'corresp': None}
+1718.2593 	EXP 	text_7: height = 1.0
+1718.2593 	EXP 	text_7: height = 1.0
+1718.2593 	EXP 	text_7: height = 1.0
+1718.2593 	EXP 	text_7: text = 'D'
+1718.2593 	EXP 	text_7: autoDraw = True
+1719.7595 	EXP 	text_7: autoDraw = False
+1719.7595 	EXP 	text_7: autoDraw = False
+1720.2439 	EXP 	New trial (rep=0, index=14): {'lettertest': 'G', 'corresp': ['space']}
+1720.2596 	EXP 	text_7: height = 1.0
+1720.2596 	EXP 	text_7: height = 1.0
+1720.2596 	EXP 	text_7: height = 1.0
+1720.2596 	EXP 	text_7: text = 'G'
+1720.2596 	EXP 	text_7: autoDraw = True
+1721.0120 	DATA 	Keypress: space
+1721.0263 	EXP 	text_7: autoDraw = False
+1721.5108 	EXP 	New trial (rep=0, index=15): {'lettertest': 'D', 'corresp': ['space']}
+1721.5268 	EXP 	text_7: height = 1.0
+1721.5268 	EXP 	text_7: height = 1.0
+1721.5268 	EXP 	text_7: height = 1.0
+1721.5268 	EXP 	text_7: text = 'D'
+1721.5268 	EXP 	text_7: autoDraw = True
+1722.3288 	DATA 	Keypress: space
+1722.3432 	EXP 	text_7: autoDraw = False
+1722.8273 	EXP 	New trial (rep=0, index=16): {'lettertest': 'A', 'corresp': None}
+1722.8433 	EXP 	text_7: height = 1.0
+1722.8433 	EXP 	text_7: height = 1.0
+1722.8433 	EXP 	text_7: height = 1.0
+1722.8433 	EXP 	text_7: text = 'A'
+1722.8433 	EXP 	text_7: autoDraw = True
+1724.3435 	EXP 	text_7: autoDraw = False
+1724.3435 	EXP 	text_7: autoDraw = False
+1724.8278 	EXP 	New trial (rep=0, index=17): {'lettertest': 'F', 'corresp': None}
+1724.8436 	EXP 	text_7: height = 1.0
+1724.8436 	EXP 	text_7: height = 1.0
+1724.8436 	EXP 	text_7: height = 1.0
+1724.8436 	EXP 	text_7: text = 'F'
+1724.8436 	EXP 	text_7: autoDraw = True
+1726.3438 	EXP 	text_7: autoDraw = False
+1726.3438 	EXP 	text_7: autoDraw = False
+1726.8285 	EXP 	New trial (rep=0, index=18): {'lettertest': 'A', 'corresp': None}
+1726.8440 	EXP 	text_7: height = 1.0
+1726.8440 	EXP 	text_7: height = 1.0
+1726.8440 	EXP 	text_7: height = 1.0
+1726.8440 	EXP 	text_7: text = 'A'
+1726.8440 	EXP 	text_7: autoDraw = True
+1727.6132 	DATA 	Keypress: space
+1727.6277 	EXP 	text_7: autoDraw = False
+1728.1115 	EXP 	New trial (rep=0, index=19): {'lettertest': 'F', 'corresp': ['space']}
+1728.1275 	EXP 	text_7: height = 1.0
+1728.1275 	EXP 	text_7: height = 1.0
+1728.1275 	EXP 	text_7: height = 1.0
+1728.1275 	EXP 	text_7: text = 'F'
+1728.1275 	EXP 	text_7: autoDraw = True
+1728.9316 	DATA 	Keypress: space
+1728.9443 	EXP 	text_7: autoDraw = False
+1729.4287 	EXP 	New trial (rep=0, index=20): {'lettertest': 'E', 'corresp': None}
+1729.4445 	EXP 	text_7: height = 1.0
+1729.4445 	EXP 	text_7: height = 1.0
+1729.4445 	EXP 	text_7: height = 1.0
+1729.4445 	EXP 	text_7: text = 'E'
+1729.4445 	EXP 	text_7: autoDraw = True
+1730.9446 	EXP 	text_7: autoDraw = False
+1730.9446 	EXP 	text_7: autoDraw = False
+1731.4293 	EXP 	New trial (rep=0, index=21): {'lettertest': 'B', 'corresp': None}
+1731.4448 	EXP 	text_7: height = 1.0
+1731.4448 	EXP 	text_7: height = 1.0
+1731.4448 	EXP 	text_7: height = 1.0
+1731.4448 	EXP 	text_7: text = 'B'
+1731.4448 	EXP 	text_7: autoDraw = True
+1732.9449 	EXP 	text_7: autoDraw = False
+1732.9449 	EXP 	text_7: autoDraw = False
+1733.4293 	EXP 	New trial (rep=0, index=22): {'lettertest': 'E', 'corresp': ['space']}
+1733.4450 	EXP 	text_7: height = 1.0
+1733.4450 	EXP 	text_7: height = 1.0
+1733.4450 	EXP 	text_7: height = 1.0
+1733.4450 	EXP 	text_7: text = 'E'
+1733.4450 	EXP 	text_7: autoDraw = True
+1734.0648 	DATA 	Keypress: space
+1734.0789 	EXP 	text_7: autoDraw = False
+1734.5630 	EXP 	New trial (rep=0, index=23): {'lettertest': 'C', 'corresp': None}
+1734.5786 	EXP 	text_7: height = 1.0
+1734.5786 	EXP 	text_7: height = 1.0
+1734.5786 	EXP 	text_7: height = 1.0
+1734.5786 	EXP 	text_7: text = 'C'
+1734.5786 	EXP 	text_7: autoDraw = True
+1736.0788 	EXP 	text_7: autoDraw = False
+1736.0788 	EXP 	text_7: autoDraw = False
+1736.5631 	EXP 	New trial (rep=0, index=24): {'lettertest': 'E', 'corresp': None}
+1736.5788 	EXP 	text_7: height = 1.0
+1736.5788 	EXP 	text_7: height = 1.0
+1736.5788 	EXP 	text_7: height = 1.0
+1736.5788 	EXP 	text_7: text = 'E'
+1736.5788 	EXP 	text_7: autoDraw = True
+1738.0791 	EXP 	text_7: autoDraw = False
+1738.0791 	EXP 	text_7: autoDraw = False
+1738.5635 	EXP 	New trial (rep=0, index=25): {'lettertest': 'C', 'corresp': ['space']}
+1738.5791 	EXP 	text_7: height = 1.0
+1738.5791 	EXP 	text_7: height = 1.0
+1738.5791 	EXP 	text_7: height = 1.0
+1738.5791 	EXP 	text_7: text = 'C'
+1738.5791 	EXP 	text_7: autoDraw = True
+1739.3658 	DATA 	Keypress: space
+1739.3796 	EXP 	text_7: autoDraw = False
+1739.8637 	EXP 	New trial (rep=0, index=26): {'lettertest': 'A', 'corresp': None}
+1739.8794 	EXP 	text_7: height = 1.0
+1739.8794 	EXP 	text_7: height = 1.0
+1739.8794 	EXP 	text_7: height = 1.0
+1739.8794 	EXP 	text_7: text = 'A'
+1739.8794 	EXP 	text_7: autoDraw = True
+1741.3796 	EXP 	text_7: autoDraw = False
+1741.3796 	EXP 	text_7: autoDraw = False
+1741.8641 	EXP 	New trial (rep=0, index=27): {'lettertest': 'D', 'corresp': None}
+1741.8797 	EXP 	text_7: height = 1.0
+1741.8797 	EXP 	text_7: height = 1.0
+1741.8797 	EXP 	text_7: height = 1.0
+1741.8797 	EXP 	text_7: text = 'D'
+1741.8797 	EXP 	text_7: autoDraw = True
+1743.3799 	EXP 	text_7: autoDraw = False
+1743.3799 	EXP 	text_7: autoDraw = False
+1743.8642 	EXP 	New trial (rep=0, index=28): {'lettertest': 'A', 'corresp': ['space']}
+1743.8800 	EXP 	text_7: height = 1.0
+1743.8800 	EXP 	text_7: height = 1.0
+1743.8800 	EXP 	text_7: height = 1.0
+1743.8800 	EXP 	text_7: text = 'A'
+1743.8800 	EXP 	text_7: autoDraw = True
+1744.8324 	DATA 	Keypress: space
+1744.8477 	EXP 	text_7: autoDraw = False
+1745.3310 	EXP 	New trial (rep=0, index=29): {'lettertest': 'F', 'corresp': None}
+1745.3470 	EXP 	text_7: height = 1.0
+1745.3470 	EXP 	text_7: height = 1.0
+1745.3470 	EXP 	text_7: height = 1.0
+1745.3470 	EXP 	text_7: text = 'F'
+1745.3470 	EXP 	text_7: autoDraw = True
+1746.8473 	EXP 	text_7: autoDraw = False
+1746.8473 	EXP 	text_7: autoDraw = False
+1747.3325 	EXP 	New trial (rep=0, index=30): {'lettertest': 'G', 'corresp': ['space']}
+1747.3476 	EXP 	text_7: height = 1.0
+1747.3476 	EXP 	text_7: height = 1.0
+1747.3476 	EXP 	text_7: height = 1.0
+1747.3476 	EXP 	text_7: text = 'G'
+1747.3476 	EXP 	text_7: autoDraw = True
+1748.8505 	EXP 	text_7: autoDraw = False
+1748.8505 	EXP 	text_7: autoDraw = False
+1749.3477 	EXP 	text_3: autoDraw = True
+1798.5238 	DATA 	Keypress: escape
+1799.3296 	EXP 	window1: mouseVisible = True
